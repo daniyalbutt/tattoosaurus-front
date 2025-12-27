@@ -1,0 +1,783 @@
+@font-face {
+    font-family: "Felix Titling";
+    src: url("../fonts/felixti.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic";
+    src: url("../fonts/itc-avant-garde-gothic-ce-book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.top-right-nav.ms-auto {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.home-banner{
+    text-align: center;
+    background-image: url(../img/home-banner.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    padding-top: 80px;
+}
+
+.section-heading h1 {
+    font-family: "Felix Titling", serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+}
+
+.btn-white {
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 15px 60px;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    transition: color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.btn-white:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.btn-white:hover:before {
+    left: 0;
+}
+
+.btn-white:hover {
+    color: #FFFFFF;
+}
+
+a.navbar-brand img {
+    width: 180px;
+}
+
+a.nav-toggle-button {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+a.user-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(
+            180deg,
+            #EEC65F 0%,
+            #A76F2A 50%,
+            #AE9469 100%
+        ) border-box;
+    position: relative;
+    margin-left: 20px;
+}
+
+a.user-button img {
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+
+a.user-button:before {
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+}
+
+a.navbar-brand {
+    padding: 0;
+}
+
+.section-heading h2 {
+    letter-spacing: 1px;
+    font-size: 64px;
+    font-family: "Felix Titling", serif;
+    color: #000000;
+}
+
+.section-heading h6 {
+    font-size: 16px;
+    background: linear-gradient(
+        90deg, 
+        #EEC65F 0%, 
+        #A76F2A 50%, 
+        #AE9469 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "ITC Avant Garde Gothic";
+    letter-spacing: 7px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.section-heading p {
+    font-size: 17px;
+    color: #7A7A7A;
+    line-height: 221%;
+    font-family: "ITC Avant Garde Gothic";
+    text-transform: capitalize;
+}
+
+.line {
+    margin-bottom: 10px;
+}
+
+.platform-box {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 80px 40px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.platform-box h4 {
+    color: #000000;
+    font-family: "Felix Titling", serif;
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+
+.platform-box img {
+    margin-bottom: 50px;
+    transition: all 0.4s ease;
+}
+
+.platform-box p {
+    font-size: 14px;
+    color: #7A7A7A;
+    line-height: 200%;
+    margin: 0;
+    transition: all 0.4 ease;
+    font-family: "ITC Avant Garde Gothic";
+}
+
+.platform-img {
+    min-height: 110px;
+}
+
+section.platform {
+    padding: 120px 0px;
+}
+
+
+.platform-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.platform-box:hover:before {
+    left: 0;
+}
+
+.platform-box:hover * {
+    color: white !important;
+}
+
+.platform-box:hover img {
+    filter: invert(1) brightness(100);
+}
+
+section.showcase {
+    background-color: #000000;
+    padding: 100px 0px;
+}
+
+.section-white h2 {
+    color: #FFFFFF;
+}
+
+.section-heading h2 span {
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.btn-gradient {
+    border-radius: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 15px 25px;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    transition: color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    background: linear-gradient(transparent, transparent) padding-box,        linear-gradient(            180deg,            #EEC65F 0%,            #A76F2A 50%,            #AE9469 100%        ) border-box;
+}
+
+.showcase-btn {
+    text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 80px;
+}
+
+.btn-gradient:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+        linear-gradient(
+    transparent, transparent) padding-box,        linear-gradient(            180deg,            #EEC65F 0%,            #A76F2A 50%,            #AE9469 100%        ) background: border-box;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: -1;
+}
+
+.btn-gradient:hover {
+    color: white;
+}
+
+.btn-gradient:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.btn-gradient:hover:after {
+    left: 0;
+}
+
+.gallery-box-inner img {
+    width: 100%;
+}
+
+.gallery-slider .slick-slide {
+    margin: 0 30px;
+}
+
+.gallery-slider {
+    margin: 0 -30px;
+}
+
+.gallery-box-inner:before {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    bottom: 25px;
+    left: 25px;
+    border: 2px solid transparent;
+    background: 
+        linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(
+            180deg,
+            #EEC65F 0%,
+            #A76F2A 50%,
+            #AE9469 100%
+        ) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    content: "";
+    transition: all 0.4s ease;
+}
+
+.gallery-box-inner {
+    position: relative;
+    margin-top: 25px;
+}
+
+
+.gallery-box-inner:hover:before {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.gallery-slider {
+    margin-top: 50px;
+}
+
+.slick-prev, .slick-next {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    background: 
+        linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(-90deg, #EEC65F -63%, #A76F2A 76%, #AE9469 150%) border-box;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-prev:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../img/angle-left.png') no-repeat center center;
+    background-size: contain;
+    opacity: 1;
+}
+
+.slick-next:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px; 
+    background: url('../img/angle-right.png') no-repeat center center;
+    background-size: contain;
+    opacity: 1;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    background-color: white;
+}
+
+.gallery-slider .slick-prev {
+    left: 0;
+}
+
+.about-img {
+    position: absolute;
+    right: 0;
+    width: 46%;
+    height: 100%;
+    top: 0;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.about {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.about-img:before {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    bottom: 25px;
+    left: -25px;
+    border: 2px solid transparent;
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    content: "";
+    transition: all 0.4s ease;
+}
+
+section.artist {
+    background-color: #000000;
+    padding: 100px 0px;
+}
+
+.showcase-btn.artist-showcase-btn {
+    padding-bottom: 30px;
+}
+
+.showcase-btn.artist-showcase-btn a:last-child{
+    margin-left: 20px;
+}
+
+.star-rating {
+    display: flex;
+    gap: 4px;
+    font-size: 20px;
+}
+
+.star {
+    background: linear-gradient(180deg, #ffd700 0%, #ffed4e 50%, #ff9500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+
+/* Empty star variant - use 'far fa-star' for outline stars */
+.star.empty {
+    color: #ddd;
+}
+
+/* Half star example - use 'fas fa-star-half-alt' */
+.star-half {
+    background: linear-gradient(90deg, #ffd700 0%, #ffed4e 50%, transparent 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.artist-lower h6 {
+    font-size: 12px;
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "ITC Avant Garde Gothic";
+    letter-spacing: 7px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.artist-lower h4 {
+    letter-spacing: 1px;
+    font-size: 26px;
+    font-family: "Felix Titling", serif;
+    color: #000000;
+}
+
+.artist-lower {
+    background-color: white;
+    padding: 30px 0 50px 50px;
+}
+
+.artist-lower p {
+    font-size: 13px;
+    color: #7A7A7A;
+    line-height: 221%;
+    font-family: "ITC Avant Garde Gothic";
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.star-container p {
+    margin: 0;
+}
+
+.artist-slider .slick-slide {
+    margin: 0 30px;
+}
+
+.artist-slider {
+    margin: 0 -30px;
+}
+
+.artist-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.artist-box {
+    position: relative;
+    margin-top: 100px;
+}
+
+.artist-box:before {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    bottom: 25px;
+    left: 25px;
+    border: 2px solid transparent;
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    content: "";
+    transition: all 0.4s ease;
+}
+
+.artist-box:hover:before {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-white-gradient.btn-gradient:before{
+    background-color: white;
+}
+
+.btn-gradient.btn-white-gradient {
+    color: black;
+}
+
+.btn-gradient.btn-white-gradient:hover {
+    color: white;
+}
+
+.artist-slider .slick-prev {
+    left: 0;
+}
+
+.about-img:hover:before {
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.featured {
+    padding: 100px 0px;
+}
+
+.tabs-wrapper .nav-link{
+    border-radius: 0px;
+    color: black;
+    font-size: 14px;
+    padding: 15px 25px;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    transition: color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    border: 1px solid #000000 !important;
+}
+
+.tabs-wrapper .nav-tabs {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 0;
+}
+
+.tabs-wrapper .nav-link:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #000000;
+    right: -7px;
+    top: 6px;
+}
+
+.tabs-wrapper .nav-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    bottom: -6px;
+    right: -6px;
+}
+
+.tabs-wrapper {
+    margin-top: 30px;
+}
+
+.tabs-wrapper .nav-link.active, .tabs-wrapper .nav-link:hover{
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.event-img img {
+    width: 100%;
+}
+
+.event-lower {
+    border: 1px solid #00000066;
+    padding: 25px 30px;
+}
+
+.event-lower h6 {
+    text-align: center;
+}
+
+.event-lower h6 {
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.event-lower h6 span {
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+p.location {
+    text-transform: uppercase;
+    color: #7A7A7A;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin: 25px 0px 20px;
+}
+
+p.location i {
+    color: black;
+}
+
+.event-lower h4 {
+    color: #000000;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.event-lower p.content {
+    font-size: 14px;
+    color: #7A7A7A;
+    line-height: 200%;
+    font-family: "ITC Avant Garde Gothic";
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-black-yellow {
+    border-radius: 0px;
+    color: black;
+    font-size: 14px;
+    padding: 12px 20px;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    transition: color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    border: 1px solid #000000 !important;
+}
+
+.btn-black-yellow:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, #EEC65F, #A76F2A, #AE9469);
+    right: -7px;
+    top: 6px;
+    transition: all 0.4s ease;
+}
+
+.btn-black-yellow:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #EEC65F, #A76F2A, #AE9469);
+    bottom: -6px;
+    right: -6px;
+    transition: all 0.4s ease;
+}
+
+.btn-black-yellow:hover:before {
+    right: 0;
+    top: 0;
+}
+.btn-black-yellow:hover:after {
+    bottom: 0;
+    left: 0;
+}
+
+.btn-black-yellow:hover {
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.event-slider .slick-slide {
+    margin: 0 10px;
+}
+
+.event-slider {
+    margin: 0 -10px;
+}
+
+.event-box {
+    margin-top: 70px !important;
+}
+
+section.testimonials {
+    background-color: #000000;
+    padding: 100px 0px;
+}

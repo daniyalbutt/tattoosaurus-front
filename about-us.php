@@ -1,122 +1,23 @@
 <?php include 'include/header.php'; ?>
-        <title>Home - Tattoosaurus</title>
+        <title>About us - Tattoosaurus</title>
     </head>
     <body>
         <?php include 'include/menu.php'; ?>
-        <section class="banner home-banner">
+        <section class="banner inner-banner">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h1>Find The Best Artist</h1>
-                            <a href="" class="btn btn-white">Get Inked</a>
+                            <h1>About US</h1>
+                            <p>Home / About Us</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="platform">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="section-heading text-center">
-                            <h6>WHY CHOOSE TATTOOSARUS</h6>
-                            <h2>A One-Stop Platform for Tattoo Artists and Their Clients.</h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
-                            <p>Streamline your business, showcase your best work, and<br>connect with clients-all in one place.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="platform-box">
-                            <div class="platform-img">
-                                <img src="img/platform-1.png" alt="">
-                            </div>
-                            <h4>Trusted tattoo artists</h4>
-                            <p>We carefully select and verify every tattoo artist to ensure the highest quality and a memorable experience.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="platform-box">
-                            <div class="platform-img">
-                                <img src="img/platform-2.png" alt="">
-                            </div>
-                            <h4>Secure & flexible payments</h4>
-                            <p>Enjoy our safe and easy payments and flexible financing options.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="platform-box">
-                            <div class="platform-img">
-                                <img src="img/platform-3.png" alt="">
-                            </div>
-                            <h4>Seamless booking and customer support</h4>
-                            <p>Easily book your tattoo appointments, and access customer support whenever you need it.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="showcase">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8">
-                        <div class="section-heading section-white">
-                            <h6>Explore Our Gallery</h6>
-                            <h2>A Showcase of Unique & <span>Timeless Tattoo Art</span></h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="showcase-btn">
-                            <a href="" class="btn btn-gradient">top tattoo galleries</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="gallery-slider slick-slider">
-                            <div class="gallery-box">
-                                <div class="gallery-box-inner">
-                                    <img src="img/gallery-1.png" alt="Gallery 1">
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <div class="gallery-box-inner">
-                                    <img src="img/gallery-2.png" alt="Gallery 2">
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <div class="gallery-box-inner">
-                                    <img src="img/gallery-3.png" alt="Gallery 3">
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <div class="gallery-box-inner">
-                                    <img src="img/gallery-1.png" alt="Gallery 1">
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <div class="gallery-box-inner">
-                                    <img src="img/gallery-2.png" alt="Gallery 2">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="about">
             <div class="about-img">
-                <img src="img/about-img.png" alt="">
+                <img src="img/about-img-1.png" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -133,6 +34,71 @@
                     </div>
                 </div>
             </div>  
+        </section>
+
+        <section class="choose">
+            <div class="choose-img">
+                <img src="img/choose-img-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-6">
+                        <div class="section-heading section-heading-white">
+                            <h6>Why Choose</h6>
+                            <h2>Why Choose <br> <span>Tattoosaurus</span></h2>
+                            <div class="line">
+                                <img src="img/line-bg.png" alt="">
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled dummy text ever since the </p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+                            <ul class="list">
+                                <li><p><img src="img/checked.png" alt=""> There are many variations </p></li>
+                                <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
+                                <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
+                                <li><p><img src="img/checked.png" alt=""> Expert many variations </p></li>
+                            </ul>
+                            <ul class="list-box">
+                                <li>
+                                    <p><img src="img/award-img.png" alt=""> Lorem Ipsum IS Dummy</p>
+                                </li>
+                                <li>
+                                    <p><img src="img/award-img.png" alt=""> Lorem Ipsum IS Dummy TExt</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <section class="goal">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <h6>Our Goal</h6>
+                            <h2>Creating Bold Art That Speaks Without Words</h2>
+                            <div class="line">
+                                <img src="img/line-bg.png" alt="">
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <ul class="list">
+                                <li><p><img src="img/checked.png" alt=""> There are many variations </p></li>
+                                <li><p><img src="img/checked.png" alt=""> Expert many variations </p></li>
+                                <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
+                                <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
+                                <li><p><img src="img/checked.png" alt=""> Lorem Ipsum is simply dummy </p></li>
+                                <li><p><img src="img/checked.png" alt=""> Expert many variations </p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="goal-img">
+                            <img src="img/goal-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="artist">
@@ -289,165 +255,173 @@
                 </div>
             </div>
         </section>
-
-        <section class="featured">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-9">
-                        <div class="section-heading text-center">
-                            <h6>Featured</h6>
-                            <h2>Powerful Tools to Empower Tattoo Artists</h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
+        <section class="about-testimonials">
+            <section class="testimonials">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <div class="section-heading section-white">
+                                <h6>Testimonials</h6>
+                                <h2>What Our Clients Say <span>About Tattoosaurus</span></h2>
+                                <div class="line">
+                                    <img src="img/line-bg.png" alt="">
+                                </div>
                             </div>
-                            <p>Your All-in-One Platform for Managing Your Art and Business From showcasing your top tattoos to managing bookings, we make running your tattoo business effortless.</p>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="testimonials-button">
+                                <a href="" class="btn btn-gradient">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="testimonials-slider slick-slider">
+                                <div class="testimonial-box-wrapper">
+                                    <div class="testimonial-box">
+                                        <p>Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect with more clients than ever. Love this platform Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect!.</p>
+                                        <div class="testimonial-image">
+                                            <img src="img/testi-img-1.png" alt="">
+                                            <h1>Joel Jensen <span>Los Angeles</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box-wrapper">
+                                    <div class="testimonial-box">
+                                        <p>Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect with more clients than ever. Love this platform Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect!.</p>
+                                        <div class="testimonial-image">
+                                            <img src="img/testi-img-1.png" alt="">
+                                            <h1>Joel Jensen <span>Los Angeles</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="tabs-wrapper">
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Event Listings</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Booking System</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Profile Customization</button>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                    <div class="event-wrapper">
-                                        <div class="event-slider slick-slider">
-                                            <div class="event-box">
-                                                <div class="event-img">
-                                                    <img src="img/event-img-1.png" alt="">
+            </section>
+        </section>
+
+        <section class="about-featured">
+            <section class="featured">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-9">
+                            <div class="section-heading text-center">
+                                <h6>Featured</h6>
+                                <h2>Powerful Tools to Empower Tattoo Artists</h2>
+                                <div class="line">
+                                    <img src="img/line-bg.png" alt="">
+                                </div>
+                                <p>Your All-in-One Platform for Managing Your Art and Business From showcasing your top tattoos to managing bookings, we make running your tattoo business effortless.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tabs-wrapper">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Event Listings</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Booking System</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Profile Customization</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="event-wrapper">
+                                            <div class="event-slider slick-slider">
+                                                <div class="event-box">
+                                                    <div class="event-img">
+                                                        <img src="img/event-img-1.png" alt="">
+                                                    </div>
+                                                    <div class="event-lower">
+                                                        <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
+                                                        <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
+                                                        <h4>Events </h4>
+                                                        <p class="content">Explore conventions, workshops, and artist meetups near you</p>
+                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                    </div>
                                                 </div>
-                                                <div class="event-lower">
-                                                    <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
-                                                    <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
-                                                    <h4>Events </h4>
-                                                    <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                    <a href="" class="btn btn-black-yellow">View Event</a>
+                                                <div class="event-box">
+                                                    <div class="event-img">
+                                                        <img src="img/event-img-2.png" alt="">
+                                                    </div>
+                                                    <div class="event-lower">
+                                                        <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
+                                                        <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
+                                                        <h4>Events </h4>
+                                                        <p class="content">Explore conventions, workshops, and artist meetups near you</p>
+                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="event-box">
-                                                <div class="event-img">
-                                                    <img src="img/event-img-2.png" alt="">
+                                                <div class="event-box">
+                                                    <div class="event-img">
+                                                        <img src="img/event-img-3.png" alt="">
+                                                    </div>
+                                                    <div class="event-lower">
+                                                        <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
+                                                        <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
+                                                        <h4>Events </h4>
+                                                        <p class="content">Explore conventions, workshops, and artist meetups near you</p>
+                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                    </div>
                                                 </div>
-                                                <div class="event-lower">
-                                                    <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
-                                                    <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
-                                                    <h4>Events </h4>
-                                                    <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                    <a href="" class="btn btn-black-yellow">View Event</a>
+                                                <div class="event-box">
+                                                    <div class="event-img">
+                                                        <img src="img/event-img-1.png" alt="">
+                                                    </div>
+                                                    <div class="event-lower">
+                                                        <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
+                                                        <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
+                                                        <h4>Events </h4>
+                                                        <p class="content">Explore conventions, workshops, and artist meetups near you</p>
+                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="event-box">
-                                                <div class="event-img">
-                                                    <img src="img/event-img-3.png" alt="">
+                                                <div class="event-box">
+                                                    <div class="event-img">
+                                                        <img src="img/event-img-2.png" alt="">
+                                                    </div>
+                                                    <div class="event-lower">
+                                                        <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
+                                                        <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
+                                                        <h4>Events </h4>
+                                                        <p class="content">Explore conventions, workshops, and artist meetups near you</p>
+                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                    </div>
                                                 </div>
-                                                <div class="event-lower">
-                                                    <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
-                                                    <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
-                                                    <h4>Events </h4>
-                                                    <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                    <a href="" class="btn btn-black-yellow">View Event</a>
-                                                </div>
-                                            </div>
-                                            <div class="event-box">
-                                                <div class="event-img">
-                                                    <img src="img/event-img-1.png" alt="">
-                                                </div>
-                                                <div class="event-lower">
-                                                    <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
-                                                    <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
-                                                    <h4>Events </h4>
-                                                    <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                    <a href="" class="btn btn-black-yellow">View Event</a>
-                                                </div>
-                                            </div>
-                                            <div class="event-box">
-                                                <div class="event-img">
-                                                    <img src="img/event-img-2.png" alt="">
-                                                </div>
-                                                <div class="event-lower">
-                                                    <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
-                                                    <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
-                                                    <h4>Events </h4>
-                                                    <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                    <a href="" class="btn btn-black-yellow">View Event</a>
-                                                </div>
-                                            </div>
-                                            <div class="event-box">
-                                                <div class="event-img">
-                                                    <img src="img/event-img-3.png" alt="">
-                                                </div>
-                                                <div class="event-lower">
-                                                    <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
-                                                    <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
-                                                    <h4>Events </h4>
-                                                    <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                    <a href="" class="btn btn-black-yellow">View Event</a>
+                                                <div class="event-box">
+                                                    <div class="event-img">
+                                                        <img src="img/event-img-3.png" alt="">
+                                                    </div>
+                                                    <div class="event-lower">
+                                                        <h6><span>18</span> Days <span>17</span> Hrs <span>24</span> Mins <span>23</span> Secs</h6>
+                                                        <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
+                                                        <h4>Events </h4>
+                                                        <p class="content">Explore conventions, workshops, and artist meetups near you</p>
+                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-                                </div>
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-        </section>
-
-        <section class="testimonials">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8">
-                        <div class="section-heading section-white">
-                            <h6>Testimonials</h6>
-                            <h2>What Our Clients Say <span>About Tattoosaurus</span></h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="testimonials-slider slick-slider">
-                            <div class="testimonial-box-wrapper">
-                                <div class="testimonial-box">
-                                    <p>Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect with more clients than ever. Love this platform Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect!.</p>
-                                    <div class="testimonial-image">
-                                        <img src="img/testi-img-1.png" alt="">
-                                        <h1>Joel Jensen <span>Los Angeles</span></h1>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-box-wrapper">
-                                <div class="testimonial-box">
-                                    <p>Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect with more clients than ever. Love this platform Tattoosarus completely transformed how I showcase my work. The gallery feature is stunning, and the ability to promote events helped me connect!.</p>
-                                    <div class="testimonial-image">
-                                        <img src="img/testi-img-1.png" alt="">
-                                        <h1>Joel Jensen <span>Los Angeles</span></h1>
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>  
                 </div>
-            </div>
+            </section>
         </section>
 
         <section class="faqs">
@@ -533,5 +507,4 @@
                 </div>
             </div>  
         </section>
-
         <?php include 'include/footer.php'; ?>

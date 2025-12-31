@@ -659,6 +659,7 @@ section.artist {
 
 .event-img img {
     width: 100%;
+    transition: all 0.4s ease;
 }
 
 .event-lower {
@@ -1073,6 +1074,7 @@ ul.footer-social li a {
     align-items: center;
     justify-content: center;
     color: #A76F2A;
+    text-decoration: none;
 }
 
 ul.footer-social {
@@ -1229,7 +1231,7 @@ a.nav-toggle-button:hover img {
     color: #FFFFFF;
     font-family: "ITC Avant Garde Gothic";
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-size: 15px;
 }
 
@@ -1406,4 +1408,444 @@ section.goal {
 
 .about-featured .tabs-wrapper .nav-link:before, .about-featured .tabs-wrapper .nav-link:after{
     background: linear-gradient(to bottom, #EEC65F, #A76F2A, #AE9469);
+}
+
+.sidebar a{
+    position: relative;
+}
+.sidebar a:before{
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(to right, #EEC65F, #A76F2A, #AE9469);
+    bottom: -7px;
+    right: 0;
+    transition: all 0.4s ease;
+    content: "";
+}
+
+.sidebar a:hover:before {
+    width: 100%;
+}
+
+section.gallery {
+    background-color: #000;
+    padding: 100px 0px;
+}
+
+.masonry-grid {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.masonry-item {
+    width: 32%;
+    margin-bottom: 22px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-right: 20px;
+    z-index: 0;
+}
+
+.masonry-item--wide {
+    width: 66%;
+}
+
+@media (max-width: 768px) {
+    .masonry-item,
+    .masonry-item--wide {
+        width: 100%;
+    }
+}
+
+.masonry-item img {
+    width: 100%;
+    display: block;
+}
+
+
+.artist-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: -100px;
+    left: 20px;
+    transition: all 0.4s ease;
+}
+
+.artist-name img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.artist-name h1 {
+    font-family: "Felix Titling", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    line-height: normal;
+}
+
+.artist-name h1 span {
+    display: block;
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "ITC Avant Garde Gothic";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.artist-bottom a {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-decoration: none;
+    color: #A76F2A;
+    font-size: 20px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.artist-bottom {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    padding: 0px 20px;
+    transition: all 0.4s ease;
+    padding-right: 40px;
+}
+
+.artist-bottom ul {
+    display: flex;
+    gap: 10px;
+}
+
+.artist-bottom a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.artist-bottom a:hover:before {
+    left: 0;
+}
+
+.artist-bottom a:hover {
+    color: white;
+}
+
+.masonry-item:hover .artist-name {
+    top: 40px;
+}
+
+.masonry-item:hover .artist-bottom {
+    bottom: 20px;
+}
+
+.masonry-item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #00000087;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s ease;
+    top: 0;
+}
+
+.masonry-item:hover:before {
+    opacity: 1;
+}
+
+section.tattoo-artists {
+    background-color: #000;
+    padding: 100px 0px 0;
+    overflow: hidden;
+}
+
+.section-white p {
+    color: #fff;
+}
+
+.masonry-item:after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 20px;
+    left: 20px;
+    border: 2px solid transparent;
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    content: "";
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.masonry-item:hover:after{
+    bottom: 0;
+    left: 0;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.near-by .slick-list {
+    overflow: visible;
+}
+
+.near-by .artist-box {
+    margin-top: 60px;
+}
+
+.near-by > h4 {
+    color: #FFFFFF;
+    font-family: "Felix Titling", serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.near-by {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.artists-detail-banner{
+    height: 300px;
+}
+
+section.artists-detail {
+    background-color: #000;
+    color: #FFFFFF;
+    padding: 100px 0px;
+}
+
+.artists-info {
+    display: flex;
+    gap: 0 50px;
+}
+
+.artists-left {
+    text-align: center;
+}
+
+.artists-left p {
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.artists-left p i {
+    color: #A76F2A;
+    margin-right: 6px;
+}
+
+.artist-detail-img {
+    border: 2px solid transparent;
+    background-color: #000000;
+    background-image: linear-gradient(#000000, #000000), /* black background */ linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 100px;
+}
+
+
+
+.artists-right h4 {
+    font-family: "Felix Titling", serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.artists-right p {
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.artists-right .btn-wrapper a {
+    margin-right: 10px;
+}
+
+ul.artist-list p {
+    color: #FFFFFF;
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 16px;
+}
+
+ul.artist-list p i {
+    margin-right: 6px;
+    color: #A76F2A;
+}
+
+ul.artist-list {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.artist-social > a {
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.artists-right {
+    padding-right: 25px;
+}
+
+.section-heading h4{
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: "Felix Titling", serif;
+}
+
+.section-white h4{
+    color: white;
+}
+
+.artist-testimonials .testimonial-box{
+    background-color: #0D0D0D;
+}
+
+.artist-testimonials .testimonial-box p{
+    color: #FFFFFF;
+}
+
+.artist-testimonials .testimonial-image h1{
+    color: white;
+}
+
+section.artist-testimonials .testimonials-slider .slick-list{
+    overflow: visible;
+}
+
+section.artist-testimonials {
+    overflow: hidden;
+}
+
+.search-wrapper input {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #DDDDDD;
+    font-family: "ITC Avant Garde Gothic";
+    color: #7A7A7A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+
+.search-wrapper button {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #DDDDDD;
+    padding-right: 0;
+    font-size: 20px;
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.search-wrapper {
+    margin-top: 40px;
+}
+
+section.events {
+    padding: 100px 0px;
+}
+
+.events .location{
+    font-size: 12px;
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "ITC Avant Garde Gothic";
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+
+.btn-border-black:before, .btn-border-black:after{
+    background: black;
+}
+
+span.date {
+    display: block;
+    color: #7A7A7A;
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.event-box:hover img {
+    transform: scale(1.1);
+}
+
+.event-img {
+    overflow: hidden;
+}
+
+.events .event-lower h4 {
+    text-transform: uppercase;
+    font-family: "Felix Titling", serif;
+    font-size: 30px;
+}
+
+.events .event-img {
+    height: 370px;
+}
+
+.events .event-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.events .event-box {
+    margin-top: 40px !important;
+}
+
+section.events .event-lower {
+    box-shadow: 0px 1px 1px 0px #00000061;
+}
+
+.filter-wrapper {
+    text-align: right;
+}
+
+.btn-event-filter {
+    color: black;
+    font-size: 30px;
+    padding: 0;
 }

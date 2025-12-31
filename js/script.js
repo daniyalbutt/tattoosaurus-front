@@ -98,4 +98,14 @@ $(document).ready(function () {
         e.preventDefault();
         $('.sidebar').removeClass('show-sidebar');
     })
+
+    var grid = document.querySelector('.masonry-grid');
+
+    imagesLoaded(grid, function () {
+        new Masonry(grid, {
+            itemSelector: '.masonry-item',
+            percentPosition: true,
+            gutter: 22
+        });
+    });
 });

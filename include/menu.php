@@ -10,15 +10,15 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about-us.php">About</a></li>
-                    <li><a href="">Tattoo Gallery</a></li>
-                    <li><a href="">Flash Gallery</a></li>
-                    <li><a href="">Artist Search</a></li>
+                    <li><a href="tattoo-gallery.php">Tattoo Gallery</a></li>
+                    <li><a href="flash-gallery.php">Flash Gallery</a></li>
+                    <li><a href="tattoo-artist.php">Artist Search</a></li>
                     <li><a href="">Book Appointment</a></li>
-                    <li><a href="">Event</a></li>
+                    <li><a href="event.php">Event</a></li>
                     <li><a href="">Sponsors</a></li>
                     <li><a href="">Shop</a></li>
                     <li><a href="">Inbox</a></li>
-                    <li><a href="">Boards</a></li>
+                    <li><a href="boards.php">Boards</a></li>
                     <li><a href="">Profile</a></li>
                     <li><a href="">Create a Profile</a></li>
                     <li><a href="">FAQ’s</a></li>

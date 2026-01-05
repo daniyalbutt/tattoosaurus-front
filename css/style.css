@@ -1849,3 +1849,451 @@ section.events .event-lower {
     font-size: 30px;
     padding: 0;
 }
+
+.sidebar-box {
+    border: 1px solid transparent;
+    background-color: #FAFAFA;
+    background-image: linear-gradient(#FAFAFA, #FAFAFA), /* black background */ linear-gradient(180deg, #eec65f75 0%, #a76f2a73 50%, #ae94697d 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 25px 24px;
+}
+
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sidebar-profile h2 {
+    font-family: "Felix Titling", serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+
+.sidebar-profile h2 span {
+    display: block;
+    background: linear-gradient(90deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "ITC Avant Garde Gothic";
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.sidebar-box h3 {
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Felix Titling", serif;
+    margin-bottom: 25px;
+}
+
+.upcoming-events-box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.upcoming-events-right h4 {
+    color: #000000;
+    font-family: "Felix Titling", serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.upcoming-events-box img {
+    width: 80px;
+}
+
+.upcoming-events-right p {
+    margin: 0;
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 12px;
+    margin-top: 8px;
+    color: #000000;
+}
+
+.upcoming-events-right p i {
+    color: #AE9469;
+}
+
+.upcoming-events-right p span {
+    margin-right: 10px;
+}
+
+.sidebar-box.upcoming-events .upcoming-events-box:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-box {
+    margin-bottom: 30px;
+}
+
+.event-details-box > img {
+    width: 100%;
+}
+
+.event-time {
+    border: 1px solid transparent;
+    background-color: #FAFAFA;
+    background-image: linear-gradient(#FAFAFA, #FAFAFA), /* black background */ linear-gradient(180deg, #eec65f75 0%, #a76f2a73 50%, #ae94697d 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 12px 20px;
+    display: inline-flex;
+    margin-top: -23px;
+    position: relative;
+    top: -18px;
+}
+
+.event-time p {
+    margin: 0;
+    font-size: 15px !important;
+    color: #000000 !important;
+}
+
+.event-time p i {
+    color: #AE9469;
+}
+
+.event-time p span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.event-details-box h3 {
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Felix Titling", serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.event-details-box p {}
+
+.event-details-box p {
+    font-family: "ITC Avant Garde Gothic";
+    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 190%;
+    text-transform: capitalize;
+}
+
+.event-details-box ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    margin-bottom: 30px;
+}
+
+.event-details-box ul li {
+    font-family: "ITC Avant Garde Gothic";
+    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 190%;
+    text-transform: capitalize;
+    width: 45%;
+}
+
+
+.event-details-box ul li i {
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(-90deg, #EEC65F -63%, #A76F2A 76%, #AE9469 150%) border-box;
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: white;
+    font-size: 11px;
+    margin-right: 6px;
+}
+
+.comment-box {
+    background-color: #FAFAFA;
+    padding: 30px;
+    margin-top: 40px;
+    border-bottom: 2px solid #AE9469;
+    margin-bottom: 40px;
+}
+
+.comment-box h5 {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Felix Titling", serif;
+    margin: 0;
+}
+
+.comment-box h5 span {
+    color: #AE9469;
+}
+
+.comment-box span {
+    color: #AE9469;
+    font-family: "ITC Avant Garde Gothic";
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.comment-box p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.lower-row img {
+    width: 100%;
+}
+
+.lower-row i {
+    background: linear-gradient(
+        -90deg,
+        #EEC65F -63%,
+        #A76F2A 76%,
+        #AE9469 150%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-right: 10px;
+}
+
+.lower-row > p {
+    margin-top: 20px;
+}
+
+.comments-details h5 {
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Felix Titling", serif;
+    margin: 30px 0 30px;
+}
+
+.comments-box {
+    border: 1px solid transparent;
+    background-color: #FAFAFA;
+    background-image: linear-gradient(#FAFAFA, #FAFAFA), /* black background */ linear-gradient(180deg, #eec65f75 0%, #a76f2a73 50%, #ae94697d 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 20px 30px;
+}
+
+.comments-box img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+section.event-details {
+    padding: 100px 0px;
+}
+
+.testi-box {
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: linear-gradient(white, white), /* white background */ linear-gradient(180deg, #eec65f75 0%, #a76f2a73 50%, #ae94697d 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 40px 30px;
+    position: relative;
+    margin: 15px 0px;
+}
+
+.testi-box i {
+    color: #AE9469;
+}
+
+.testi-box p {
+    font-family: "ITC Avant Garde Gothic";
+    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 190%;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.testi-box .testimonial-image img {
+    width: 70px;
+    height: 70px;
+}
+
+.testi-box .testimonial-image h1 {
+    margin: 0;
+}
+
+.testi-quote {
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: linear-gradient(white, white), /* white background */ linear-gradient(180deg, #eec65f75 0%, #a76f2a73 50%, #ae94697d 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 15px;
+    border-right: 0;
+    border-bottom: 0px;
+}
+
+section.testi-wrapper {
+    padding: 100px 0px;
+}
+
+.btn-gradient-white:before{
+    background-color: white;
+}
+
+.btn-gradient-white{
+    color: black;
+}
+
+.contact-container{
+    background-color: #FAFAFA;
+    border: 1px solid #CF9455;
+    padding: 80px 100px;
+}
+
+section.contact-wrapper {
+    margin: 100px 0px;
+}
+
+.contact-form .input-group-text {
+    background-color: transparent;
+    border: 0;
+    padding-right: 2px;
+    padding-left: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.contact-form .form-control {
+    background-color: transparent;
+    border: 0;
+    font-family: "Felix Titling", serif;
+    color: black;
+    font-size: 15px;
+    height: 45px;
+    letter-spacing: 1px;
+}
+
+.contact-form .input-group {
+    border: 1px solid transparent;
+    background-color: white;
+    background-image: linear-gradient(white, white), /* white background */ linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin-bottom: 20px;
+    align-items: self-start;
+}
+
+.contact-form .input-group-text img {
+    width: 24px;
+}
+
+.contact-form .form-control::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.contact-form textarea.form-control {
+    height: 140px;
+    padding-top: 9px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+section.contact-lower ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+section.contact-lower ul li {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+section.contact-lower ul li h2 {
+    color: #000000;
+    font-family: "Felix Titling", serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+section.contact-lower ul li h2 p {
+    color: #B0B0B0;
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+
+section.contact-lower ul li:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #B0B0B0;
+    position: absolute;
+    right: 0;
+}
+
+section.contact-lower ul li:last-child:before {
+    opacity: 0;
+}
+
+section.contact-lower iframe {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+
+[data-barba="container"] {
+  will-change: transform, opacity;
+}
+
+html, body {
+  overflow-x: hidden;
+}

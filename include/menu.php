@@ -3,8 +3,8 @@
                 <a href=""><i class="fa-solid fa-xmark"></i></a>
             </div>
             <div class="sidebar-button">
-                <a href="">Log in</a>
-                <a href="">Signup</a>
+                <a href="" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</a>
+                <a href="" id="register-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Signup</a>
             </div>
             <div class="sidebar-list">
                 <ul>

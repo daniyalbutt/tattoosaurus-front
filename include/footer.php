@@ -91,6 +91,322 @@
                 </div>  
             </footer>
         </main>
+
+        <div class="modal fade register-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/register-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading">
+                                        <h2>Join and be part of the Tattoosarus community.”</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <ul class="register-login">
+                                            <li>
+                                                <a href="" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                                    <span class="img-box">
+                                                        <img src="img/customer-login.png" alt="">
+                                                    </span>
+                                                    <p>As a Customer</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="img-box">
+                                                        <img src="img/member-login.png" alt="">
+                                                    </span>
+                                                    <p>As a Member</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/register-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading">
+                                        <h6>Log in</h6>
+                                        <h2>Access Your Ink World with Tattoosaurus</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">New here? <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">Create an account</a> and start your tattoo journey today.</p>
+                                        <h5>Login to your account</h5>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-7">
+                                                <form action="" class="contact-form login-form">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">
+                                                            <img src="img/form-icon-2.png" alt="">
+                                                        </span>
+                                                        <input type="email" class="form-control" placeholder="email or Phone Number">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text">
+                                                            <img src="img/form-icon-6.png" alt="">
+                                                        </span>
+                                                        <input type="password" class="form-control" placeholder="Password">
+                                                    </div>
+                                                    <div class="forgot">
+                                                        <a href="">Forgot Password?</a>
+                                                    </div>
+                                                    <button class="btn btn-gradient">Log in</button>
+                                                </form>
+                                                <div class="signup-option">
+                                                    <h5>Sign up with</h5>
+                                                    <a href="">
+                                                        <img src="img/google-icon.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="img/facebook-icon.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="img/apple-icon.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/signup-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading">
+                                        <h6>Sign up</h6>
+                                        <h2>Access Your Ink World with Tattoosaurus</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">Already have an account? <a href="" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">Login here</a></p>
+                                        <h5>Create an account</h5>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <form action="" class="contact-form login-form row register-form">
+                                            <div class="col-lg-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-1.png" alt="">
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Name *">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-1.png" alt="">
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Username">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-2.png" alt="">
+                                                    </span>
+                                                    <input type="email" class="form-control" placeholder="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-1.png" alt="">
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-6.png" alt="">
+                                                    </span>
+                                                    <input type="password" class="form-control" placeholder="Password">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-6.png" alt="">
+                                                    </span>
+                                                    <input type="password" class="form-control" placeholder="Confirm Password">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-gradient" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#oneTimePassowrdModal">Register</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="oneTimePassowrdModal" tabindex="-1" aria-labelledby="oneTimePassowrdModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/signup-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading text-center">
+                                        <h2>One Time Password</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">We have sent you an email containing a 6-digit verification code.<br> Please enter the code to verify your identity</p>
+                                        <form action="" class="contact-form login-form row register-form">
+                                            <div class="circle-timer" id="circleTimer"><span>0s</span></div>
+                                            <ul class="circle-input">
+                                                <li>
+                                                    <input type="number" class="form-control" placeholder="0" maxlength="1">
+                                                </li>
+                                                <li>
+                                                    <input type="number" class="form-control" placeholder="0" maxlength="1">
+                                                </li>
+                                                <li>
+                                                    <input type="number" class="form-control" placeholder="0" maxlength="1">
+                                                </li>
+                                                <li>
+                                                    <input type="number" class="form-control" placeholder="0" maxlength="1">
+                                                </li>
+                                                <li>
+                                                    <input type="number" class="form-control" placeholder="0" maxlength="1">
+                                                </li>
+                                                <li>
+                                                    <input type="number" class="form-control" placeholder="0" maxlength="1">
+                                                </li>
+                                            </ul>
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-gradient" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerationModal">Verify</button>
+                                            </div>
+                                            <a href="" class="code-receive">Code didn't receive?<br><span>Resend Code</span></a>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="registerationModal" tabindex="-1" aria-labelledby="registerationModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/signup-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading text-center">
+                                        <h2>Registration</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">Enter your details to register yourself</p>
+                                        <form class="contact-form login-form row register-form align-items-center justify-content-center">
+                                            <div class="col-lg-8">
+                                                <!-- Country -->
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                    <i class="fa-solid fa-earth-africa"></i>
+                                                    </span>
+                                                    <select id="country" class="form-control">
+                                                        <option value="">Select Country</option>
+                                                    </select>
+                                                </div>
+                                                <!-- State -->
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                    <i class="fa-solid fa-flag"></i>
+                                                    </span>
+                                                    <select id="state" class="form-control" disabled>
+                                                        <option value="">Select State</option>
+                                                    </select>
+                                                </div>
+                                                <!-- City -->
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                    <i class="fa-solid fa-city"></i>
+                                                    </span>
+                                                    <select id="city" class="form-control" disabled>
+                                                        <option value="">Select City</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-gradient">Continue</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Optional JavaScript; choose one of the two! -->
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

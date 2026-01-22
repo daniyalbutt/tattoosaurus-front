@@ -480,4 +480,29 @@
 
   MysticFramework.init();
 
+  document.addEventListener('click', function (e) {
+
+    // Cancel Booking → show cancel panel
+    if (e.target.closest('.cancel-booking')) {
+      e.preventDefault();
+
+      const aside = e.target.closest('.side-nav');
+      const asideBody = aside.querySelector('.ms-aside-body');
+
+      asideBody.classList.add('show-cancel');
+    }
+
+    // Back to details → hide cancel panel
+    if (e.target.closest('.back-to-details')) {
+      e.preventDefault();
+
+      const aside = e.target.closest('.side-nav');
+      const asideBody = aside.querySelector('.ms-aside-body');
+
+      asideBody.classList.remove('show-cancel');
+    }
+
+  });
+
+
 })(jQuery);

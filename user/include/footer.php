@@ -178,11 +178,39 @@
                         <div class="form-group">
                             <label for="">Select Reason</label>
                             <select class="form-control" id="exampleSelect">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
+                                <option value="" disabled selected>Select a reason</option>
+
+                                <optgroup label="Client Reasons">
+                                    <option value="change_of_mind">Change of mind</option>
+                                    <option value="scheduling_conflict">Scheduling conflict</option>
+                                    <option value="found_another_artist">Found another artist</option>
+                                    <option value="budget_constraints">Budget constraints</option>
+                                    <option value="design_not_finalized">Design not finalized</option>
+                                    <option value="need_more_time">Need more time to decide</option>
+                                    <option value="personal_reasons">Personal reasons</option>
+                                    <option value="health_related_concern">Health-related concern</option>
+                                    <option value="travel_issues">Travel issues</option>
+                                </optgroup>
+
+                                <optgroup label="Artist / Studio Reasons">
+                                    <option value="artist_unavailable">Artist unavailable</option>
+                                    <option value="design_revisions_needed">Design revisions needed</option>
+                                    <option value="equipment_or_studio_issue">Equipment or studio issue</option>
+                                    <option value="rescheduled_by_artist">Rescheduled by artist</option>
+                                </optgroup>
+
+                                <optgroup label="Booking / System">
+                                    <option value="incorrect_booking_details">Incorrect booking details</option>
+                                    <option value="duplicate_booking">Duplicate booking</option>
+                                    <option value="payment_issue">Payment issue</option>
+                                </optgroup>
+
+                                <optgroup label="General">
+                                    <option value="emergency_situation">Emergency situation</option>
+                                    <option value="weather_or_transportation_issue">Weather or transportation issue</option>
+                                    <option value="no_longer_needed">No longer needed</option>
+                                    <option value="other">Other</option>
+                                </optgroup>
                             </select>
                         </div>
                         <div class="form-group">

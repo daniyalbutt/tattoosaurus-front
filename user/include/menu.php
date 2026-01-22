@@ -20,6 +20,7 @@
         <div class="ms-aside-overlay ms-overlay-right">
             <a href="javascript:;"><img src="img/circle-left.png" alt=""></a>
         </div>
+        <div id="notifBackdrop" class="notif-backdrop"></div>
         <!-- Sidebar Navigation Left -->
         <aside id="ms-side-nav" class="side-nav fixed ms-aside-scrollable ms-aside-left">
             <!-- Logo -->
@@ -89,6 +90,34 @@
                 <!-- /Form Elements -->
             </ul>
         </aside>
+        <div id="notificationSidebar" class="notification-sidebar">
+            <div class="sidebar-header">
+                <h5>Notifications</h5>
+                <button id="closeNotifications">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <div class="sidebar-content">
+                <ul>
+                    <li>
+                        <img src="img/user-chat.png" alt="">
+                        <div class="notification-content">
+                            <span>05 : 30</span>
+                            <h6>Artist Approved Request</h6>
+                            <p>Checkout available slot</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/user-chat.png" alt="">
+                        <div class="notification-content">
+                            <span>05 : 30</span>
+                            <h6>Artist Approved Request</h6>
+                            <p>Checkout available slot</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- Main Content -->
         <main class="body-content">
             <!-- Navigation Bar -->
@@ -99,45 +128,15 @@
                     <span class="ms-toggler-bar bg-primary"></span>
                 </div>
                 <ul class="ms-nav-list ms-inline mb-0" id="ms-nav-options">
+                    <li class="ms-nav-item pr-0">
+                        <a href="chat.php" class="text-disabled ms-has-notification">
+                            <i class="flaticon-chat"></i>
+                        </a>
+                    </li>
                     <li class="ms-nav-item dropdown">
-                        <a href="#" class="text-disabled ms-has-notification" id="notificationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flaticon-bell"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationDropdown">
-                            <li class="dropdown-menu-header">
-                                <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Notifications</span></h6>
-                                <span class="badge badge-pill badge-info">4 New</span>
-                            </li>
-                            <li class="dropdown-divider"></li>
-                            <li class="ms-scrollable ms-dropdown-list">
-                                <a class="media p-2" href="#">
-                                    <div class="media-body">
-                                        <span>12 ways to improve your crypto dashboard</span>
-                                        <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 30 seconds ago</p>
-                                    </div>
-                                </a>
-                                <a class="media p-2" href="#">
-                                    <div class="media-body">
-                                        <span>You have newly registered users</span>
-                                        <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 45 minutes ago</p>
-                                    </div>
-                                </a>
-                                <a class="media p-2" href="#">
-                                    <div class="media-body">
-                                        <span>Your account was logged in from an unauthorized IP</span>
-                                        <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 2 hours ago</p>
-                                    </div>
-                                </a>
-                                <a class="media p-2" href="#">
-                                    <div class="media-body">
-                                        <span>An application form has been submitted</span>
-                                        <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 1 day ago</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="dropdown-divider"></li>
-                            <li class="dropdown-menu-footer text-center">
-                                <a href="#">View all Notifications</a>
-                            </li>
-                        </ul>
+                        <a href="#" class="text-disabled ms-has-notification" id="notificationDropdown">
+                            <i class="flaticon-bell"></i>
+                        </a>
                     </li>
                     <li class="ms-nav-item ms-nav-user dropdown">
                         <a href="#"  id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="ms-user-img ms-img-round float-right" src="img/people-5.jpg" alt="people"> </a>

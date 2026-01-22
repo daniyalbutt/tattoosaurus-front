@@ -504,5 +504,18 @@
 
   });
 
+  $(document).ready(function() {
+      $('#notificationDropdown').on('click', function(e) {
+          e.preventDefault();
+          $('#notificationSidebar').toggleClass('open');
+          $('#notifBackdrop').toggleClass('show');
+      });
+
+      $('#notifBackdrop, #closeNotifications').on('click', function() {
+          $('#notificationSidebar, #notifBackdrop').removeClass('open show');
+      });
+  });
+
+
 
 })(jQuery);

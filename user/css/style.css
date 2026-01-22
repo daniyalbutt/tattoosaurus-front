@@ -7180,3 +7180,89 @@ ul.customer-support li a:hover {
 ul.customer-support li a:hover img {
     filter: invert(1);
 }
+
+/* Hidden off the screen */
+.notification-sidebar {
+    position: fixed;
+    left: -320px; /* width of your panel */
+    top: 0;
+    height: 100%;
+    width: 320px;
+    background: #fff;
+    z-index: 1;
+    overflow-y: auto;
+    box-shadow: 4px 0 12px rgba(0,0,0,0.15);
+    transition: left 0.35s ease; /* Slide in/out */
+    padding: 30px;
+}
+
+.notification-sidebar.open {
+    left: 255px;
+}
+
+.notif-backdrop {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.8);
+   z-index: 1;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.3s ease;
+}
+.notif-backdrop.show {
+   opacity: 1;
+   visibility: visible;
+}
+
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-header h5 {
+    color: #2C2B2B;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sidebar-content ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+button#closeNotifications {
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    padding: 0;
+}
+
+button#closeNotifications i {
+    font-size: 18px;
+}
+
+.notification-content span {
+    color: #00000080;
+}
+
+.notification-content h6 {
+    color: #000000;
+    font-size: 15px;
+    margin: 2px 0px;
+}
+
+.notification-content p {
+    color: #00000080;
+}
+
+.sidebar-content {
+    margin-top: 40px;
+}

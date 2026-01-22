@@ -59,10 +59,19 @@
                                             <img src="img/toggle-button.png" alt="">
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="user-button">
+                                    <li class="dropdown">
+                                        <a href="#" 
+                                           class="user-button dropdown-toggle"
+                                           id="userDropdown"
+                                           role="button"
+                                           data-bs-toggle="dropdown"
+                                           aria-expanded="false">
                                             <img src="img/user-button.png" alt="">
                                         </a>
+
+                                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                            <li><a class="dropdown-item" href="user/account-center.php">GO TO PORTAL</a></li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </div>

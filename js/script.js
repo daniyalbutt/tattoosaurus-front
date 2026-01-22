@@ -83,6 +83,7 @@ function initPageScripts() {
     initCountryStateCity();
     initOtpTimer();
     initOtpInputs();
+    initProfileUpload();
     initMasonry();
 }
 
@@ -156,6 +157,57 @@ function initCountryStateCity() {
 }
 
 /* ===============================
+   PROFILE IMAGE UPLOAD + REMOVE
+================================ */
+function initProfileUpload() {
+    const input = document.getElementById('profileInput');
+    const preview = document.getElementById('profilePreview');
+    const placeholder = document.querySelector('.profile-circle .placeholder');
+    const removeBtn = document.querySelector('.remove-image');
+    const circle = document.querySelector('.profile-circle');
+
+    if (!input || input.dataset.bound) return;
+    input.dataset.bound = 'true';
+
+    // Upload image
+    input.addEventListener('change', () => {
+        const file = input.files[0];
+        if (!file) return;
+
+        if (!file.type.startsWith('image/')) {
+            alert('Please select an image file');
+            input.value = '';
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = e => {
+            preview.src = e.target.result;
+            preview.style.display = 'block';
+            placeholder.style.display = 'none';
+            circle.classList.add('has-image');
+            removeBtn.style.display = 'flex';
+        };
+        reader.readAsDataURL(file);
+    });
+
+    // Remove image
+    removeBtn.addEventListener('click', e => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        preview.src = '';
+        preview.style.display = 'none';
+        placeholder.style.display = 'flex';
+        input.value = '';
+        circle.classList.remove('has-image');
+        removeBtn.style.display = 'none';
+    });
+}
+
+
+
+/* ===============================
    OTP TIMER (MODAL)
 ================================ */
 function initOtpTimer() {
@@ -168,18 +220,27 @@ function initOtpTimer() {
         const text = circle.querySelector('span');
 
         clearInterval(circleInterval);
-        let time = 0;
-        const duration = 10;
 
-        circle.style.setProperty('--progress', '0deg');
+        const duration = 10;
+        let timeLeft = duration;
+
+        // Full border at start
+        circle.style.setProperty('--progress', '360deg');
+        text.textContent = `${timeLeft}s`;
 
         circleInterval = setInterval(() => {
-            time += 0.1;
-            const deg = (time / duration) * 360;
-            circle.style.setProperty('--progress', `${deg}deg`);
-            text.textContent = `${Math.ceil(time)}s`;
+            timeLeft -= 0.1;
+            if (timeLeft < 0) timeLeft = 0;
 
-            if (time >= duration) clearInterval(circleInterval);
+            const deg = (timeLeft / duration) * 360;
+            circle.style.setProperty('--progress', `${deg}deg`);
+            text.textContent = `${Math.ceil(timeLeft)}s`;
+
+            if (timeLeft <= 0) {
+                clearInterval(circleInterval);
+                // OPTIONAL: enable resend button here
+                // document.querySelector('.resend-btn')?.classList.remove('disabled');
+            }
         }, 100);
     });
 

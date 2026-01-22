@@ -177,7 +177,7 @@
                                                         <input type="password" class="form-control" placeholder="Password">
                                                     </div>
                                                     <div class="forgot">
-                                                        <a href="">Forgot Password?</a>
+                                                        <a href="" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgetpasswordModal">Forgot Password?</a>
                                                     </div>
                                                     <button class="btn btn-gradient">Log in</button>
                                                 </form>
@@ -395,7 +395,130 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-12">
-                                                <button type="button" class="btn btn-gradient">Continue</button>
+                                                <button type="button" class="btn btn-gradient" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#profileModal">Continue</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/signup-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading text-center">
+                                        <h2>Create Profile</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">Enter your details to register yourself</p>
+                                        <form class="contact-form login-form row register-form align-items-center justify-content-center">
+                                            <div class="col-lg-8">
+                                                <div class="profile-upload">
+                                                    <label for="profileInput" class="profile-circle">
+                                                        <img id="profilePreview" src="" alt="">
+                                                        <span class="placeholder">
+                                                            <i class="fa-regular fa-user"></i>
+                                                        </span>
+                                                    </label>
+                                                    <span class="remove-image" title="Remove image"><i class="fa-solid fa-xmark"></i></span>
+                                                    <input type="file" id="profileInput" accept="image/*" hidden>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <textarea name="" id="" class="form-control" placeholder="Bio"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-gradient" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#accountModal">Continue</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="accountModal" tabindex="-1" aria-labelledby="accountModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/signup-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading text-center account-created">
+                                        <h2>Account Created!</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">Thanks for signing up to Tattoosarus. Your account is currently under review. Our team verifies every new member to keep the community safe and authentic. You’ll receive an email once your account is approved.</p>
+                                        <p class="notify">We’ll notify you by email once your account is approved.</p>
+                                        <form class="contact-form login-form row register-form align-items-center justify-content-center">
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-gradient">Done</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade register-modal" id="forgetpasswordModal" tabindex="-1" aria-labelledby="forgetpasswordModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="register-img">
+                                    <img src="img/signup-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="register-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="section-heading text-center">
+                                        <h2>Forgot password</h2>
+                                        <div class="line">
+                                            <img src="img/line-bg.png" alt="">
+                                        </div>
+                                        <p class="new-here">Please enter your email to reset password</p>
+                                        <form class="contact-form login-form row register-form align-items-center justify-content-center">
+                                            <div class="col-lg-8">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">
+                                                        <img src="img/form-icon-2.png" alt="">
+                                                    </span>
+                                                    <input type="email" class="form-control" placeholder="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <button type="button" class="btn btn-gradient" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#oneTimePassowrdModal">Next</button>
                                             </div>
                                         </form>
                                     </div>

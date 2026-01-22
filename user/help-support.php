@@ -1,0 +1,43 @@
+<?php include 'include/header.php'; ?>
+        <title>Help & Support</title>
+    </head>
+    <body class="ms-body ms-aside-left-open ms-primary-theme ms-has-quickbar">
+        <?php include 'include/menu.php'; ?>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title border-title">Help & Support</h2>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content-box">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo est et nunc blandit, sit amet sagittis tortor aliquam. Morbi metus ipsum, tincidunt non leo vitae, pulvinar venenatis tortor. Suspendisse aliquet leo erat, in luctus massa porta ac. Vivamus nec sapien eget ante vehicula convallis eget ut lectus. Fusce congue rhoncus nibh a vulputate. In tempus purus vitae ipsum sollicitudin vehicula ac ut nibh. Aliquam erat volutpat. Cras scelerisque purus ac lacinia consectetur. Integer vulputate feugiat nisl. Sed quis arcu eros. Suspendisse suscipit massa est, in commodo quam scelerisque in. Praesent euismod, nisl vel egestas lacinia, nibh neque ornare nulla, et efficitur ipsum tortor nec erat. Aliquam felis massa, consequat ac eleifend a, dictum sed magna. Suspendisse potenti. Integer quis lectus at est dictum mollis nec sodales tortor.</p>
+                    </div>
+                    <div class="content-box">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo est et nunc blandit, sit amet sagittis tortor aliquam. Morbi metus ipsum, tincidunt non leo vitae, pulvinar venenatis tortor. Suspendisse aliquet leo erat, in luctus massa porta ac. Vivamus nec sapien eget ante vehicula convallis eget ut lectus. Fusce congue rhoncus nibh a vulputate. In tempus purus vitae ipsum sollicitudin vehicula ac ut nibh. Aliquam erat volutpat. Cras scelerisque purus ac lacinia consectetur. Integer vulputate feugiat nisl. Sed quis arcu eros. Suspendisse suscipit massa est, in commodo quam scelerisque in. Praesent euismod, nisl vel egestas lacinia, nibh neque ornare nulla, et efficitur ipsum tortor nec erat. Aliquam felis massa, consequat ac eleifend a, dictum sed magna. Suspendisse potenti. Integer quis lectus at est dictum mollis nec sodales tortor.</p>
+                    </div>
+                    <div class="content-box">
+                        <h4>Customer Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo est et nunc blandit, sit amet sagittis tortor aliquam. Morbi metus ipsum, tincidunt non leo vitae, pulvinar venenatis tortor. Suspendisse aliquet leo erat, in luctus massa porta ac. Vivamus nec sapien eget ante vehicula convallis eget ut lectus. Fusce congue rhoncus nibh a vulputate. In tempus purus vitae ipsum sollicitudin vehicula ac ut nibh. Aliquam erat volutpat. Cras scelerisque purus ac lacinia consectetur. Integer vulputate feugiat nisl. Sed quis arcu eros. Suspendisse suscipit massa est, in commodo quam scelerisque in. Praesent euismod, nisl vel egestas lacinia, nibh neque ornare nulla, et efficitur ipsum tortor nec erat. Aliquam felis massa, consequat ac eleifend a, dictum sed magna. Suspendisse potenti. Integer quis lectus at est dictum mollis nec sodales tortor.</p>
+                    </div>
+                    <ul class="customer-support">
+                        <li>
+                            <a href=""><img src="img/icon-snapchat.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icon-instagram.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icon-facebook-f.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/icon-tiktok.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <?php include 'include/footer.php'; ?>

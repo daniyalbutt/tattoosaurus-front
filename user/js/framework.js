@@ -516,6 +516,16 @@
       });
   });
 
+  window.addEventListener('load', function() {
+      // Select the chat panel
+      const chatPanel = document.querySelector('.ms-panel.ms-chat-conversations .ms-panel-body.ms-scrollable');
+
+      if (chatPanel) {
+          // Scroll to the bottom
+          chatPanel.scrollTop = chatPanel.scrollHeight;
+      }
+  });
+
 
 
 })(jQuery);

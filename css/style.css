@@ -2964,11 +2964,7 @@ section.banner.home-banner h1 {
 
 .body-figure {
     width: 200px;
-    height: 400px;
-    background-color: #e5e5e5;
-    border-radius: 80px 80px 20px 20px;
-    position: relative;
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 .body-part {
@@ -3088,4 +3084,37 @@ section.banner.home-banner h1 {
 
 .step-content {
     width: 100%;
+}
+
+.body-figure svg path{
+    fill: #e6e7e7;
+}
+
+.body-figure svg [data-key]:hover {
+    fill: #cececf;
+}
+
+.body-figure svg path.active {
+    fill: #A76F2A;
+}
+
+ul#bodyTabs li button {
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    border: 1px solid #f1f1f1;
+    color: black;
+    padding: 10px 40px;
+}
+
+ul#bodyTabs li {
+    margin: 0px 10px;
+}
+
+ul#bodyTabs {
+    border: 0;
+}
+
+ul#bodyTabs li button.active {
+    background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
+    color: white;
 }

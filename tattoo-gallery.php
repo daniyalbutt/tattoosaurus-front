@@ -19,14 +19,15 @@
             <section class="gallery">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-xl-7">
+                        <div class="col-xl-12">
                             <div class="section-heading text-center section-white">
                                 <h6>explore Our Gallery</h6>
-                                <h2>Discover Our Tattoo Artistry</h2>
+                                <h2>Discover Our<br>Tattoo Artistry</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and<br>typesetting industry. Lorem Ipsum has been </p>
+                                <p>Welcome to the Tattoosaurus Tattoo Gallery, where exceptional tattoo artistry takes center stage. Here, you can explore an inspiring collection of tattoos from top tattoo artists, showcasing a wide range of styles, from traditional to modern, black and grey to full color. Whether you're looking for design inspiration or searching for the perfect artist for your next ink, our gallery has something for everyone.</p>
+                                <p>Dive into our curated galleries and discover unique pieces that reflect the artistry, skill, and creativity of the tattoo community. Browse through the collections and find tattoo styles that resonate with you. Whether you’re a first-timer or an ink enthusiast, our gallery will inspire your next tattoo journey.</p>
                             </div>
                         </div>
                     </div>
@@ -243,7 +244,7 @@
                         <div class="col-xl-8">
                             <div class="section-heading text-center">
                                 <h6>FAQ</h6>
-                                <h2>Artist FAQ’s</h2>
+                                <h2>Frequently Asked Questions</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
@@ -257,60 +258,72 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is Tattoosarus?
+                                            What types of tattoos can I find in the gallery?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Our gallery features a wide variety of tattoo styles including realism, traditional, neo-traditional, black & grey, watercolor, geometric, and more. You’ll find tattoos for every taste, whether you're looking for intricate detail or bold designs.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How do I showcase my top tattoos?
+                                            Can I use the gallery for inspiration for my own tattoo?
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Absolutely! Feel free to browse through the gallery for design inspiration. You can save your favorite pieces to share with artists for your consultation. Our gallery is here to help you visualize and choose the perfect tattoo design.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Can I customize my profile?
+                                            How can I search for specific tattoo styles in the gallery?
                                             </button>
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>You can use our search tool to filter by tattoo styles, themes, or artists. This makes it easy to find exactly what you're looking for, whether you’re interested in a particular style or a custom tattoo idea.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            How do I book a tattoo artist?
+                                            Can I see tattoos by specific artists in the gallery?
                                             </button>
                                         </h2>
                                         <div id="collapseFour" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Yes! You can browse tattoos by featured artists, allowing you to explore their portfolios and see the type of work they specialize in. If you find a piece you like, you can easily contact the artist directly through the platform.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            How do I search for tattoo artists?
+                                            Are all the tattoos in the gallery from professional artists?
                                             </button>
                                         </h2>
                                         <div id="collapseFive" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Yes, every tattoo featured in the Tattoosaurus gallery is from a verified, professional tattoo artist. We ensure that the tattoos showcased are of the highest quality and created by experienced artists.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            Can I get a tattoo similar to the ones in the gallery?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p>Definitely! If you see a tattoo that inspires you, you can reach out to the artist who created it or find another artist who specializes in that style. Our platform allows you to connect directly with artists to discuss your ideas and book an appointment.</p>
                                             </div>
                                         </div>
                                     </div>

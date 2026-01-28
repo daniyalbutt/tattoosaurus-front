@@ -299,28 +299,6 @@ $(document).on('click', '.sidebar-close a', e => {
 /* ===============================
    BARBA
 ================================ */
-barba.init({
-    transitions: [{
-        leave({
-            current
-        }) {
-            return new Promise(resolve => {
-                current.container.classList.add('fade-out');
-                setTimeout(resolve, 400);
-            });
-        },
-        enter({
-            next
-        }) {
-            next.container.classList.add('fade-in');
-        }
-    }]
-});
-
-barba.hooks.afterEnter(() => {
-    initPageScripts();
-    $('.sidebar').removeClass('show-sidebar');
-});
 
 /* ===============================
    INITIAL LOAD

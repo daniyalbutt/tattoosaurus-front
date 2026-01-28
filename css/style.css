@@ -1274,14 +1274,20 @@ ul.list {
 
 ul.list li {
     width: 46%;
+    display: flex;
+    align-items: center;
 }
 
 ul.list li p {
     margin: 0;
+    display: flex;
+    align-items: baseline;
 }
 
 ul.list li p img {
     margin-right: 10px;
+    position: relative;
+    top: 4px;
 }
 
 ul.list-box {
@@ -1292,7 +1298,7 @@ ul.list-box {
 ul.list-box li p {
     color: #FFFFFF;
     font-family: "Felix Titling", serif;
-    font-size: 15px;
+    font-size: 14px;
     border: 1px solid transparent;
     background-color: #000000;
     background-image: linear-gradient(#000000, #000000), /* black background */ linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
@@ -1777,7 +1783,7 @@ section.artist-testimonials {
 }
 
 section.events {
-    padding: 100px 0px;
+    padding: 100px 0px 40px;
 }
 
 .events .location{

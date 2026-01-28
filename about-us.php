@@ -25,12 +25,11 @@
                         <div class="col-lg-6">
                             <div class="section-heading">
                                 <h6>AbOUt</h6>
-                                <h2>Your Top Tattoos Deserve the Spotlight.</h2>
+                                <h2>Your Top Tattoos Deserve The Spotlight</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Welcome to Tattoosarus, the ultimate platform designed exclusively for tattoo artists to thrive in their craft and business. We understand the challenges you face—from managing bookings to showcasing your best work on overcrowded social media platforms. That’s why we’ve created a space where your art and professionalism take center stage.</p>
-                                <p>At Tattoosarus, we empower you with tools to streamline your workflow, connect with clients effortlessly, and elevate your visibility without the hassle of daily posting. Highlight your top tattoos, customize your profile, and let clients book directly with ease. Whether you’re an independent artist or part of a studio, our platform ensures you can focus on what matters most: creating unforgettable tattoos.</p>
+                                <p>At Tattoosaurus, we believe that every tattoo tells a unique story and deserves to be shown in the best possible light. That’s why we’ve created a platform where tattoo artists can showcase their top work and gain the recognition they deserve, free from the noise of social media algorithms. We provide tattoo enthusiasts with a curated space to discover the best artists and designs, making it easier for both artists and clients to connect.</p>
                             </div>
                         </div>
                     </div>
@@ -50,20 +49,19 @@
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled dummy text ever since the </p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+                                <p>Tattoosaurus is not just another tattoo platform; it’s a community where artists and clients can thrive together. We understand the need for artists to have a space where they can control their presence, manage bookings, and interact with clients without the pressure of social media. For clients, it’s about finding the right artist and style in an easy-to-navigate environment.</p>
                                 <ul class="list">
-                                    <li><p><img src="img/checked.png" alt=""> There are many variations </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> Expert many variations </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Dedicated to Tattoo Artists </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Easy Booking System </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Verified Artists </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Secure Payments </p></li>
                                 </ul>
                                 <ul class="list-box">
                                     <li>
-                                        <p><img src="img/award-img.png" alt=""> Lorem Ipsum IS Dummy</p>
+                                        <p><img src="img/award-img.png" alt=""> Verified Tattoo Artist Directory</p>
                                     </li>
                                     <li>
-                                        <p><img src="img/award-img.png" alt=""> Lorem Ipsum IS Dummy TExt</p>
+                                        <p><img src="img/award-img.png" alt=""> Secure Payment Gateway Certification</p>
                                     </li>
                                 </ul>
                             </div>
@@ -82,14 +80,14 @@
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <p>At Tattoosaurus, we aim to create a space where tattoo artists and enthusiasts can build lasting relationships through the art they love. Our goal is to empower artists to showcase their work without the stress of traditional social media platforms and to give clients the tools to discover unique, quality tattoos.</p>
                                 <ul class="list">
-                                    <li><p><img src="img/checked.png" alt=""> There are many variations </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> Expert many variations </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> There are many passages </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> Lorem Ipsum is simply dummy </p></li>
-                                    <li><p><img src="img/checked.png" alt=""> Expert many variations </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Showcase your best work without algorithm interference </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Connect with clients who appreciate your craft </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Streamline your booking process </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Get paid securely with flexible payment options </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Discover tattoo events and conventions </p></li>
+                                    <li><p><img src="img/checked.png" alt=""> Build a reputation within a community-focused platform </p></li>
                                 </ul>
                             </div>
                         </div>
@@ -112,7 +110,7 @@
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Explore exceptional tattoo artists and their top creations,<br>handpicked for you.</p>
+                                <p>Explore exceptional tattoo artists and their top creations. Tattoosaurus is home to talented professionals who specialize in various tattoo styles, ensuring that you find the perfect artist for your next tattoo.</p>
                             </div>
                         </div>
                         <div class="col-xl-5">
@@ -310,11 +308,11 @@
                             <div class="col-xl-9">
                                 <div class="section-heading text-center">
                                     <h6>Featured</h6>
-                                    <h2>Powerful Tools to Empower Tattoo Artists</h2>
+                                    <h2>Power Tools To Empower Tattoo Artists</h2>
                                     <div class="line">
                                         <img src="img/line-bg.png" alt="">
                                     </div>
-                                    <p>Your All-in-One Platform for Managing Your Art and Business From showcasing your top tattoos to managing bookings, we make running your tattoo business effortless.</p>
+                                    <p>Tattoosaurus provides tattoo artists with the tools they need to run their businesses efficiently. From customizable profiles to easy event promotion, we make managing your tattoo business effortless.</p>
                                 </div>
                             </div>
                         </div>
@@ -431,7 +429,7 @@
                         <div class="col-xl-8">
                             <div class="section-heading text-center">
                                 <h6>FAQ</h6>
-                                <h2>Sample FAQ Questions and Answers</h2>
+                                <h2>Frequently Asked Questions</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
@@ -445,12 +443,12 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is Tattoosarus?
+                                            What is Tattoosaurus?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Tattoosaurus is an online platform that connects tattoo artists with clients. It allows artists to showcase their portfolios, manage bookings, and promote their events, while clients can easily discover artists and book appointments.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -462,7 +460,7 @@
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>After signing up, artists can upload their best tattoos and highlight their favorites. These will be displayed prominently on their profile.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -474,7 +472,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Yes! Tattoo artists can fully customize their profiles to represent their artistic style, specialties, and availability.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -486,7 +484,7 @@
                                         </h2>
                                         <div id="collapseFour" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Browse through artist profiles, view their portfolios, and book an appointment directly through the platform.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -498,7 +496,7 @@
                                         </h2>
                                         <div id="collapseFive" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>You can search for tattoo artists by style, location, and availability using our simple search tool.</p>
                                             </div>
                                         </div>
                                     </div>

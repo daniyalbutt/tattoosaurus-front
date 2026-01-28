@@ -4,11 +4,11 @@
                         <div class="col-xl-7">
                             <div class="footer-logo section-heading text-center">
                                 <img src="img/logo.png" alt="">
-                                <h2>Empowering Tattoo Artists, Connecting Clients.</h2>
+                                <h2>Get Started with Tattoosaurus Today</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Tattoosarus is the all-in-one platform designed for tattoo artists to manage and grow their businesses seamlessly. We empower tattoo professionals by providing tools to showcase their best work, book appointments, connect with clients, and promote their services—all in one place. Whether you're a seasoned artist or just starting out, Tattoosarus simplifies your workflow so you can focus on what you do best: creating incredible tattoos.</p>
+                                <p>Join the Tattoosaurus community and experience a new way to discover tattoo artists, manage your bookings, and showcase your artwork. Whether you’re an artist looking for more exposure or a client searching for the perfect tattoo, Tattoosaurus is here to help.</p>
                             </div>
                         </div>
                     </div>
@@ -17,10 +17,10 @@
                             <div class="footer-heading">
                                 <h6>Quick Links</h6>
                                 <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">About Us</a></li>
-                                    <li><a href="">FAQ</a></li>
-                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="about-us.php">About Us</a></li>
+                                    <li><a href="faqs.php">FAQ</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="">Blog</a></li>
                                 </ul>
                             </div>
@@ -40,9 +40,9 @@
                             <div class="footer-heading">
                                 <h6>For Clients</h6>
                                 <ul>
-                                    <li><a href="">Search Artists</a></li>
+                                    <li><a href="tattoo-artist.php">Search Artists</a></li>
                                     <li><a href="">Book an Appointment</a></li>
-                                    <li><a href="">Events</a></li>
+                                    <li><a href="event.php">Events</a></li>
                                 </ul>
                             </div>
                         </div>

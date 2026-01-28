@@ -9,8 +9,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-heading">
-                                <h1>Find The Best Artist</h1>
-                                <a href="" class="btn btn-white">Get Inked</a>
+                                <h6>WELCOME TO TATTOOSAURUS</h6>
+                                <h1>Find the Best Tattoo Artists Near You</h1>
+                                <p>Looking for a skilled tattoo artist? Tattoosaurus is your one-stop destination to find talented tattoo artists, explore portfolios, and book appointments with ease. Whether you’re looking to get your first tattoo or add to your existing collection, our platform makes it simple and convenient to get inked.</p>
+                                <a href="" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Inked</a>
                             </div>
                         </div>
                     </div>
@@ -20,14 +22,14 @@
             <section class="platform">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-xl-8">
+                        <div class="col-xl-10">
                             <div class="section-heading text-center">
-                                <h6>WHY CHOOSE TATTOOSARUS</h6>
-                                <h2>A One-Stop Platform for Tattoo Artists and Their Clients.</h2>
+                                <h6>WHY CHOOSE TATTOOSAURUS</h6>
+                                <h2>The Ultimate Platform for Tattoo Artists and Clients</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Streamline your business, showcase your best work, and<br>connect with clients-all in one place.</p>
+                                <p>Tattoosaurus is a dedicated platform that connects tattoo artists and clients, offering a seamless experience for both. We understand the importance of showcasing your art and discovering the perfect tattoo artist, and we’ve built a space that’s tailored to the tattoo community. Here’s why Tattoosaurus stands out:</p>
                             </div>
                         </div>
                     </div>
@@ -37,8 +39,8 @@
                                 <div class="platform-img">
                                     <img src="img/platform-1.png" alt="">
                                 </div>
-                                <h4>Trusted tattoo artists</h4>
-                                <p>We carefully select and verify every tattoo artist to ensure the highest quality and a memorable experience.</p>
+                                <h4>Trusted Tattoo<br>Artists</h4>
+                                <p>Every tattoo artist on our platform is carefully selected and verified for their skill and professionalism. This ensures that you’ll find high-quality tattoos and a memorable experience.</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -46,8 +48,8 @@
                                 <div class="platform-img">
                                     <img src="img/platform-2.png" alt="">
                                 </div>
-                                <h4>Secure & flexible payments</h4>
-                                <p>Enjoy our safe and easy payments and flexible financing options.</p>
+                                <h4>Secure & Flexible Payments</h4>
+                                <p>Our platform offers secure, easy-to-use payment options with flexible financing, making it easier to pay for your tattoos in a way that suits your budget.</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -55,8 +57,8 @@
                                 <div class="platform-img">
                                     <img src="img/platform-3.png" alt="">
                                 </div>
-                                <h4>Seamless booking and customer support</h4>
-                                <p>Easily book your tattoo appointments, and access customer support whenever you need it.</p>
+                                <h4>Seamless Booking & Customer Support</h4>
+                                <p>Booking a tattoo appointment is a breeze with our integrated booking system. Plus, our customer support team is available to help with any questions or concerns, ensuring your tattoo experience is smooth from start to finish.</p>
                             </div>
                         </div>
                     </div>
@@ -68,16 +70,17 @@
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="section-heading section-white">
-                                <h6>Explore Our Gallery</h6>
-                                <h2>A Showcase of Unique & <span>Timeless Tattoo Art</span></h2>
+                                <h6>EXPLORE OUR GALLERY</h6>
+                                <h2>Discover Unique and <span>Timeless Tattoo Art</span></h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
+                                <p>Tattoosaurus features a stunning collection of tattoo designs that will inspire you. Explore our top tattoo galleries, showcasing artwork from talented tattoo artists across different styles. Browse, save your favorite designs, and find the perfect tattoo for your next ink.</p>
                             </div>
                         </div>
                         <div class="col-xl-4">
                             <div class="showcase-btn">
-                                <a href="" class="btn btn-gradient">top tattoo galleries</a>
+                                <a href="tattoo-gallery.php" class="btn btn-gradient">Top Tattoo Galleries</a>
                             </div>
                         </div>
                     </div>
@@ -123,13 +126,13 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="section-heading">
-                                <h6>AbOUt</h6>
-                                <h2>Your Top Tattoos Deserve the Spotlight.</h2>
+                                <h6>ABOUT</h6>
+                                <h2>Your Top Tattoos Deserve the Spotlight</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Welcome to Tattoosarus, the ultimate platform designed exclusively for tattoo artists to thrive in their craft and business. We understand the challenges you face—from managing bookings to showcasing your best work on overcrowded social media platforms. That’s why we’ve created a space where your art and professionalism take center stage.</p>
-                                <p>At Tattoosarus, we empower you with tools to streamline your workflow, connect with clients effortlessly, and elevate your visibility without the hassle of daily posting. Highlight your top tattoos, customize your profile, and let clients book directly with ease. Whether you’re an independent artist or part of a studio, our platform ensures you can focus on what matters most: creating unforgettable tattoos.</p>
+                                <p>Welcome to Tattoosaurus, the ultimate platform designed for tattoo artists to showcase their work and grow their business. At Tattoosaurus, we recognize the struggles artists face with overcrowded social media platforms and unreliable booking systems. That’s why we created a dedicated space for tattoo artists to shine.</p>
+                                <p>On Tattoosaurus, you can upload your best tattoos, showcase your top work, and even receive direct bookings from clients. For clients, our platform makes it easy to find the right artist and communicate your ideas without the noise. Whether you’re an independent artist or part of a tattoo studio, our tools will help you manage your business and reach more clients with ease. Say goodbye to algorithm-based platforms and hello to a community-first space where your work truly takes center stage.</p>
                             </div>
                         </div>
                     </div>
@@ -141,18 +144,18 @@
                     <div class="row">
                         <div class="col-xl-7">
                             <div class="section-heading section-white">
-                                <h6>MEet Tattoo Artist’s</h6>
-                                <h2>Meet the<br>Masters of Ink</h2>
+                                <h6>MEET THE TATTOO ARTISTS</h6>
+                                <h2>Discover the <br>Masters of Ink</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Explore exceptional tattoo artists and their top creations,<br>handpicked for you.</p>
+                                <p>Tattoosaurus is home to some of the best tattoo artists in the industry. Our platform features a curated selection of talented artists who specialize in various tattoo styles. Whether you're looking for realism, traditional, black & grey, or abstract tattoos, you’ll find the perfect match.</p>
                             </div>
                         </div>
                         <div class="col-xl-5">
                             <div class="showcase-btn artist-showcase-btn">
-                                <a href="" class="btn btn-gradient">Artist Gallery</a>
-                                <a href="" class="btn btn-gradient">view all</a>
+                                <a href="tattoo-gallery.php" class="btn btn-gradient">Artist Gallery</a>
+                                <a href="tattoo-artist.php" class="btn btn-gradient">view all</a>
                             </div>
                         </div>
                     </div>
@@ -176,7 +179,7 @@
                                                     <i class="fas fa-star star"></i>
                                                 </div>
                                             </div>
-                                            <a href="" class="btn btn-gradient btn-white-gradient">More Details</a>
+                                            <a href="tattoo-artist-details.php" class="btn btn-gradient btn-white-gradient">More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +200,7 @@
                                                     <i class="fas fa-star star"></i>
                                                 </div>
                                             </div>
-                                            <a href="" class="btn btn-gradient btn-white-gradient">More Details</a>
+                                            <a href="tattoo-artist-details.php" class="btn btn-gradient btn-white-gradient">More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +221,7 @@
                                                     <i class="fas fa-star star"></i>
                                                 </div>
                                             </div>
-                                            <a href="" class="btn btn-gradient btn-white-gradient">More Details</a>
+                                            <a href="tattoo-artist-details.php" class="btn btn-gradient btn-white-gradient">More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -239,7 +242,7 @@
                                                     <i class="fas fa-star star"></i>
                                                 </div>
                                             </div>
-                                            <a href="" class="btn btn-gradient btn-white-gradient">More Details</a>
+                                            <a href="tattoo-artist-details.php" class="btn btn-gradient btn-white-gradient">More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +263,7 @@
                                                     <i class="fas fa-star star"></i>
                                                 </div>
                                             </div>
-                                            <a href="" class="btn btn-gradient btn-white-gradient">More Details</a>
+                                            <a href="tattoo-artist-details.php" class="btn btn-gradient btn-white-gradient">More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -281,7 +284,7 @@
                                                     <i class="fas fa-star star"></i>
                                                 </div>
                                             </div>
-                                            <a href="" class="btn btn-gradient btn-white-gradient">More Details</a>
+                                            <a href="tattoo-artist-details.php" class="btn btn-gradient btn-white-gradient">More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -296,12 +299,12 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-9">
                             <div class="section-heading text-center">
-                                <h6>Featured</h6>
-                                <h2>Powerful Tools to Empower Tattoo Artists</h2>
+                                <h6>FEATURED</h6>
+                                <h2>Empowering Tattoo Artists with Powerful Tools</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
-                                <p>Your All-in-One Platform for Managing Your Art and Business From showcasing your top tattoos to managing bookings, we make running your tattoo business effortless.</p>
+                                <p>Tattoosaurus offers tattoo artists the tools they need to manage their art, business, and client relationships. We streamline the booking process, help you manage events, and give you the control to personalize your profile for maximum exposure.</p>
                             </div>
                         </div>
                     </div>
@@ -332,7 +335,7 @@
                                                         <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
                                                         <h4>Events </h4>
                                                         <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                        <a href="event-details.php" class="btn btn-black-yellow">View Event</a>
                                                     </div>
                                                 </div>
                                                 <div class="event-box">
@@ -344,7 +347,7 @@
                                                         <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
                                                         <h4>Events </h4>
                                                         <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                        <a href="event-details.php" class="btn btn-black-yellow">View Event</a>
                                                     </div>
                                                 </div>
                                                 <div class="event-box">
@@ -356,7 +359,7 @@
                                                         <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
                                                         <h4>Events </h4>
                                                         <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                        <a href="event-details.php" class="btn btn-black-yellow">View Event</a>
                                                     </div>
                                                 </div>
                                                 <div class="event-box">
@@ -368,7 +371,7 @@
                                                         <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
                                                         <h4>Events </h4>
                                                         <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                        <a href="event-details.php" class="btn btn-black-yellow">View Event</a>
                                                     </div>
                                                 </div>
                                                 <div class="event-box">
@@ -380,7 +383,7 @@
                                                         <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
                                                         <h4>Events </h4>
                                                         <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                        <a href="event-details.php" class="btn btn-black-yellow">View Event</a>
                                                     </div>
                                                 </div>
                                                 <div class="event-box">
@@ -392,7 +395,7 @@
                                                         <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles</p>
                                                         <h4>Events </h4>
                                                         <p class="content">Explore conventions, workshops, and artist meetups near you</p>
-                                                        <a href="" class="btn btn-black-yellow">View Event</a>
+                                                        <a href="event-details.php" class="btn btn-black-yellow">View Event</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -416,7 +419,7 @@
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="section-heading section-white">
-                                <h6>Testimonials</h6>
+                                <h6>TESTIMONIALS</h6>
                                 <h2>What Our Clients Say <span>About Tattoosaurus</span></h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
@@ -457,7 +460,7 @@
                         <div class="col-xl-8">
                             <div class="section-heading text-center">
                                 <h6>FAQ</h6>
-                                <h2>Sample FAQ Questions and Answers</h2>
+                                <h2>Frequently Asked Questions</h2>
                                 <div class="line">
                                     <img src="img/line-bg.png" alt="">
                                 </div>
@@ -471,12 +474,12 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is Tattoosarus?
+                                            What is Tattoosaurus?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Tattoosaurus is an online platform that connects tattoo artists with clients. Artists can showcase their portfolios, promote their flash art, and manage bookings, while clients can discover tattoo artists, find inspiration, and easily book appointments.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -488,7 +491,7 @@
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Once you create your artist profile, you can upload your best tattoos and highlight your favorite pieces. These tattoos will appear prominently in your profile, making them easy for clients to find.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -500,7 +503,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Yes! You can personalize your profile to reflect your artistic style and brand. Add details about your tattoo specialties, your working hours, and more to help clients find the perfect match.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -512,7 +515,7 @@
                                         </h2>
                                         <div id="collapseFour" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Simply browse through the artist profiles, view their portfolios, and book an appointment directly through the platform. It’s quick, easy, and secure.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -524,7 +527,7 @@
                                         </h2>
                                         <div id="collapseFive" class="accordion-collapse collapse">
                                             <div class="accordion-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p>Tattoosaurus allows you to search for tattoo artists by style, location, and availability. Use the search feature to find the best artists near you or who specialize in the style you're looking for.</p>
                                             </div>
                                         </div>
                                     </div>

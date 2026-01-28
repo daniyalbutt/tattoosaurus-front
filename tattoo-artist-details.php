@@ -34,8 +34,7 @@
                                     </div>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  </p>
                                     <div class="btn-wrapper">
-                                        <a href="" class="btn btn-gradient">Book Appointment</a>
-                                        <a href="" class="btn btn-gradient">Tattoo Request</a>
+                                        <a href="tattoo-request.php" class="btn btn-gradient">Tattoo Request</a>
                                     </div>
                                 </div>  
                             </div>

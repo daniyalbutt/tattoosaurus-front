@@ -1117,6 +1117,7 @@ a.nav-toggle-button:hover img {
     padding: 30px 30px;
     right: -350px;
     transition: all 0.4s ease;
+    z-index: 9999;
 }
 
 .sidebar-close {

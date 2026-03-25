@@ -2,7 +2,7 @@
         <title>Tattoo Artists - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="tattoo-artist">
+        <main data-barba="" data-barba-namespace="tattoo-artist">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">

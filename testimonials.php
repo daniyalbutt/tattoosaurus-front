@@ -2,7 +2,7 @@
         <title>Testimonials - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="testimonials">
+        <main data-barba="" data-barba-namespace="testimonials">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">

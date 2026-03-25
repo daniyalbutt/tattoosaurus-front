@@ -7,7 +7,7 @@
         </style>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="tattoo-request">
+        <main data-barba="" data-barba-namespace="tattoo-request">
             <div class="tattoo-booking-container">
                 <!-- Header -->
                 <div class="booking-header">

@@ -14,20 +14,32 @@ function initPageScripts() {
         slidesToScroll: 1,
         infinite: true,
         dots: true,
-        arrows: false,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        pauseOnHover: true,
+        pauseOnFocus: true,
+        responsive: [
+            { breakpoint: 1024, settings: { slidesToShow: 2 } },
+            { breakpoint: 600, settings: { slidesToShow: 1 } }
         ]
+    });
+
+    // Pause for 15 seconds on hover
+    $('.gallery-slider').on('mouseenter', function() {
+        $(this).slick('slickPause');
+        setTimeout(() => {
+            $(this).slick('slickPlay');
+        }, 15000); // 15 seconds
+    });
+
+    // Pause for 15 seconds when clicking Slick arrows
+    $('.gallery-slider').on('click', '.slick-prev, .slick-next', function() {
+        let slider = $(this).closest('.gallery-slider');
+        slider.slick('slickPause');
+        setTimeout(() => {
+            slider.slick('slickPlay');
+        }, 15000); // 15 seconds
     });
 
     $('.artist-slider').not('.slick-initialized').slick({
@@ -35,20 +47,32 @@ function initPageScripts() {
         slidesToScroll: 1,
         infinite: true,
         dots: true,
-        arrows: false,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
+        arrows: true,            // Show arrows
+        autoplay: true,
+        autoplaySpeed: 6000,      // Rotate every 6 seconds
+        pauseOnHover: true,
+        pauseOnFocus: true,
+        responsive: [
+            { breakpoint: 1024, settings: { slidesToShow: 2 } },
+            { breakpoint: 600, settings: { slidesToShow: 1 } }
         ]
+    });
+
+    // Pause for 15 seconds on hover
+    $('.artist-slider').on('mouseenter', function() {
+        $(this).slick('slickPause');
+        setTimeout(() => {
+            $(this).slick('slickPlay');
+        }, 15000);
+    });
+
+    // Pause for 15 seconds on arrow click
+    $('.artist-slider').on('click', '.slick-prev, .slick-next', function() {
+        let slider = $(this).closest('.artist-slider');
+        slider.slick('slickPause');
+        setTimeout(() => {
+            slider.slick('slickPlay');
+        }, 15000);
     });
 
     $('.event-slider').not('.slick-initialized').slick({
@@ -56,21 +80,28 @@ function initPageScripts() {
         slidesToScroll: 1,
         infinite: true,
         dots: false,
-        arrows: true,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
+        arrows: true,            // Show arrows
+        autoplay: true,
+        autoplaySpeed: 6000,      // Rotate every 6 seconds
+        pauseOnHover: true,
+        pauseOnFocus: true,
+        responsive: [
+            { breakpoint: 1024, settings: { slidesToShow: 2 } },
+            { breakpoint: 600, settings: { slidesToShow: 1 } }
         ]
     });
+
+    // Pause 15 seconds on arrow click
+    $('.event-slider').on('click', '.slick-prev, .slick-next', function() {
+        let slider = $(this).closest('.event-slider');
+        slider.slick('slickPause');
+        setTimeout(() => {
+            slider.slick('slickPlay');
+        }, 15000);
+    });
+
+    // Make each event clickable (entire card)
+    $('.event-box a').css('display', 'block').css('text-decoration', 'none');
 
     $('.testimonials-slider').not('.slick-initialized').slick({
         slidesToShow: 1,
@@ -296,6 +327,16 @@ $(document).on('click', '.sidebar-close a', e => {
     $('.sidebar').removeClass('show-sidebar');
 });
 
+$(document).on('click', e => {
+    const $sidebar = $('.sidebar');
+    // Check if sidebar is open and click target is not inside sidebar or toggle button
+    if ($sidebar.hasClass('show-sidebar') && 
+        !$(e.target).closest('.sidebar').length && 
+        !$(e.target).closest('a.nav-toggle-button').length) {
+        $sidebar.removeClass('show-sidebar');
+    }
+});
+
 /* ===============================
    BARBA
 ================================ */
@@ -304,3 +345,12 @@ $(document).on('click', '.sidebar-close a', e => {
    INITIAL LOAD
 ================================ */
 document.addEventListener('DOMContentLoaded', initPageScripts);
+
+
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 50) { // scroll threshold
+        $('header').addClass('fixed-header');
+    } else {
+        $('header').removeClass('fixed-header');
+    }
+});

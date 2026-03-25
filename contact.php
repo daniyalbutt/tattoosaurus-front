@@ -2,7 +2,7 @@
         <title>Contact Us - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="contact">
+        <main data-barba="" data-barba-namespace="contact">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">

@@ -27,22 +27,22 @@
                         </div>
                         <div class="col-lg">
                             <div class="footer-heading">
-                                <h6>For Artists</h6>
+                                <h6>For Clients</h6>
                                 <ul>
-                                    <li><a href="">Create a Profile</a></li>
-                                    <li><a href="">Manage Bookings</a></li>
-                                    <li><a href="">Top Tattoos Gallery</a></li>
-                                    <li><a href="">Premium Features</a></li>
+                                    <li><a href="tattoo-gallery.php">Tattoo Gallery</a></li>
+                                    <li><a href="flash-gallery.php">Flash Gallery</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg">
                             <div class="footer-heading">
-                                <h6>For Clients</h6>
+                                <h6>Information</h6>
                                 <ul>
-                                    <li><a href="tattoo-artist.php">Search Artists</a></li>
-                                    <li><a href="">Book an Appointment</a></li>
-                                    <li><a href="event.php">Events</a></li>
+                                    <li><a href="">Cookie Policy</a></li>
+                                    <li><a href="">DMCA Policy</a></li>
+                                    <li><a href="">Artist Agreement</a></li>
+                                    <li><a href="">Payment/Billing Policy</a></li>
+                                    <li><a href="">Community Guidelines</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -51,8 +51,6 @@
                                 <h6>Contact Information</h6>
                                 <ul class="footer-info">
                                     <li><a href=""><i class="fa-regular fa-envelope"></i> support@tattoosarus.com</a></li>
-                                    <li><a href=""><i class="fa-solid fa-phone"></i> +1-800-555-INKS (4657)</a></li>
-                                    <li><a href=""><i class="fa-solid fa-location-dot"></i> 123 Ink Lane, Creative City, USA</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -61,9 +59,11 @@
                                 <h6>Social links</h6>
                                 <ul class="footer-social">
                                     <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
                                     <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
                                     <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
                                 </ul>
                                 <h6>Newsletter</h6>
                                 <div class="input-group">
@@ -78,7 +78,7 @@
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p class="copyright">©2025 Tattoosaurus, All right reserved</p>
+                                <p class="copyright">©2026 Tattoosaurus, All right reserved</p>
                             </div>
                             <div class="col-lg-6">
                                 <div class="payment">

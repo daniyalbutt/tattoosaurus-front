@@ -2,7 +2,7 @@
         <title>Events Detail - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="event-details">
+        <main data-barba="" data-barba-namespace="event-details">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">

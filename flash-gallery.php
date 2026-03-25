@@ -2,7 +2,7 @@
         <title>Flash Gallery - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="flash-gallery">
+        <main data-barba="" data-barba-namespace="flash-gallery">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">

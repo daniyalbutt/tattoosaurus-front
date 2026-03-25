@@ -2,7 +2,7 @@
         <title>Board - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="boards">
+        <main data-barba="" data-barba-namespace="boards">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">

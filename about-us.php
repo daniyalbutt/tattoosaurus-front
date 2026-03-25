@@ -2,7 +2,7 @@
         <title>About us - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
-        <main data-barba="container" data-barba-namespace="about">
+        <main data-barba="" data-barba-namespace="about">
             <?php include 'include/menu.php'; ?>
             <section class="banner inner-banner">
                 <div class="container">
@@ -17,9 +17,6 @@
                 </div>
             </section>
             <section class="about">
-                <div class="about-img">
-                    <img src="img/about-img-1.png" alt="">
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -30,6 +27,11 @@
                                     <img src="img/line-bg.png" alt="">
                                 </div>
                                 <p>At Tattoosaurus, we believe that every tattoo tells a unique story and deserves to be shown in the best possible light. That’s why we’ve created a platform where tattoo artists can showcase their top work and gain the recognition they deserve, free from the noise of social media algorithms. We provide tattoo enthusiasts with a curated space to discover the best artists and designs, making it easier for both artists and clients to connect.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-img">
+                                <img src="img/about-img-1.png" alt="">
                             </div>
                         </div>
                     </div>

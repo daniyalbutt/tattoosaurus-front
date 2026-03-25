@@ -29,12 +29,14 @@ ul.top-right-nav.ms-auto {
 .home-banner{
     text-align: center;
     background-image: url(../img/home-banner.png);
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: 100% 100%;
-    padding-top: 80px;
+    padding-top: 250px;
+    padding-bottom: 120px;
+    position: relative;
+    overflow: hidden;
 }
 
 .section-heading h1 {
@@ -50,6 +52,7 @@ header {
     left: 0;
     right: 0;
     top: 15px;
+    z-index: 2;
 }
 
 .btn-white {
@@ -71,7 +74,7 @@ header {
     content: "";
     position: absolute;
     top: 0;
-    left: 100%;
+    right: 100%;
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
@@ -80,7 +83,7 @@ header {
 }
 
 .btn-white:hover:before {
-    left: 0;
+    right: 0;
 }
 
 .btn-white:hover {
@@ -88,18 +91,20 @@ header {
 }
 
 a.navbar-brand img {
-    width: 180px;
+    width: 160px;
 }
 
 a.nav-toggle-button {
-    background-color: white;
+    background-color: black;
     width: 60px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    border: 1px solid white;
+    border: 2px solid transparent;
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%) border-box;
+    position: relative;
 }
 
 a.user-button {
@@ -140,6 +145,7 @@ a.user-button:before {
 
 a.navbar-brand {
     padding: 0;
+    margin-right: 0;
 }
 
 .section-heading h2 {
@@ -170,8 +176,7 @@ a.navbar-brand {
     font-size: 17px;
     color: #7A7A7A;
     line-height: 221%;
-    font-family: "ITC Avant Garde Gothic";
-    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
 }
 
 .line {
@@ -185,6 +190,7 @@ a.navbar-brand {
     margin-top: 50px;
     position: relative;
     overflow: hidden;
+    min-height: 489px;
 }
 
 .platform-box h4 {
@@ -200,12 +206,12 @@ a.navbar-brand {
 }
 
 .platform-box p {
-    font-size: 14px;
+    font-size: 15px;
     color: #7A7A7A;
-    line-height: 200%;
+    line-height: 180%;
     margin: 0;
     transition: all 0.4 ease;
-    font-family: "ITC Avant Garde Gothic";
+    font-family: "Inter", sans-serif;
 }
 
 .platform-img {
@@ -221,7 +227,7 @@ section.platform {
     content: "";
     position: absolute;
     top: 0;
-    left: 100%;
+    right: 100%;
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
@@ -230,7 +236,7 @@ section.platform {
 }
 
 .platform-box:hover:before {
-    left: 0;
+    right: 0;
 }
 
 .platform-box:hover * {
@@ -303,7 +309,7 @@ section.showcase {
     content: "";
     position: absolute;
     top: 0;
-    left: 100%;
+    right: 100%;
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
@@ -312,7 +318,7 @@ section.showcase {
 }
 
 .btn-gradient:hover:after {
-    left: 0;
+    right: 0;
 }
 
 .gallery-box-inner img {
@@ -410,18 +416,14 @@ section.showcase {
 }
 
 .about-img {
-    position: absolute;
-    right: 0;
-    width: 46%;
-    height: 100%;
-    top: 0;
+    width: 100%;
 }
 
 .about-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    mix-blend-mode: luminosity;
+/*    mix-blend-mode: luminosity;*/
 }
 
 section.about {
@@ -429,22 +431,6 @@ section.about {
     padding: 100px 0px;
 }
 
-.about-img:before {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    bottom: 25px;
-    left: -25px;
-    border: 2px solid transparent;
-    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
-    content: "";
-    transition: all 0.4s ease;
-    z-index: 1;
-}
 
 section.artist {
     background-color: #000000;
@@ -520,9 +506,8 @@ section.artist {
     font-size: 13px;
     color: #7A7A7A;
     line-height: 221%;
-    font-family: "ITC Avant Garde Gothic";
+    font-family: "Inter", sans-serif;
     margin-bottom: 10px;
-    text-transform: capitalize;
 }
 
 .star-container {
@@ -712,9 +697,8 @@ p.location i {
     font-size: 14px;
     color: #7A7A7A;
     line-height: 200%;
-    font-family: "ITC Avant Garde Gothic";
+    font-family: "Inter", sans-serif;
     margin-bottom: 10px;
-    text-transform: capitalize;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -779,10 +763,6 @@ p.location i {
     margin: 0 -10px;
 }
 
-.event-box {
-    margin-top: 70px !important;
-}
-
 section.testimonials {
     background-color: #000000;
     padding: 100px 0px;
@@ -822,11 +802,10 @@ section.testimonials {
 }
 
 .testimonial-box p {
-    font-family: "ITC Avant Garde Gothic";
+    font-family: "Inter", sans-serif;
     color: #7A7A7A;
     font-size: 17px;
     line-height: 210%;
-    text-transform: capitalize;
 }
 
 .testimonial-box:before {
@@ -910,11 +889,10 @@ h2.accordion-header:after {
 
 .accordion-body p {
     margin: 6px 0px 0;
-    font-family: "ITC Avant Garde Gothic";
+    font-family: "Inter", sans-serif;
     color: #7A7A7A;
     font-size: 14px;
     line-height: 180%;
-    text-transform: capitalize;
     padding-left: 15px;
 }
 
@@ -1023,7 +1001,7 @@ p.copyright {
 }
 
 .footer-heading ul li {
-    margin-bottom: 12px;
+    margin-bottom: 7px;
 }
 
 .footer-heading ul li a:before {
@@ -1080,8 +1058,9 @@ ul.footer-social li a {
 
 ul.footer-social {
     display: flex;
-    gap: 7px;
+    gap: 0 7px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .footer-heading.social-links input {
@@ -1815,10 +1794,6 @@ span.date {
     margin-bottom: 15px;
 }
 
-.event-box:hover img {
-    transform: scale(1.1);
-}
-
 .event-img {
     overflow: hidden;
 }
@@ -2299,7 +2274,7 @@ section.contact-lower iframe {
 }
 
 
-[data-barba="container"] {
+[data-barba=""] {
   will-change: transform, opacity;
 }
 
@@ -3123,4 +3098,128 @@ ul#bodyTabs {
 ul#bodyTabs li button.active {
     background: linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%);
     color: white;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 16px;
+    margin: 0px 20px;
+}
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    padding: 8px 0px;
+    backdrop-filter: blur(16px) saturate(1.2);
+    background: rgba(255, 255, 255, .75) !important;
+}
+
+a.navbar-brand span {
+    display: none;
+}
+
+header.fixed-header a.navbar-brand img {
+    display: none;
+}
+
+header.fixed-header a.navbar-brand span {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: "Felix Titling", serif;
+}
+
+.dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.top-right-nav{
+    width: 160px;
+    text-align: right;
+    justify-content: end;
+}
+
+header.fixed-header .navbar-nav a {
+    color: black;
+}
+
+a.nav-toggle-button:before {
+    content: "";
+    width: 58px;
+    height: 58px;
+    background: black;
+    position: absolute;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+}
+
+a.nav-toggle-button img {
+    position: relative;
+}
+
+a.nav-toggle-button:hover:before {
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(-90deg, #EEC65F -63%, #A76F2A 76%, #AE9469 150%) border-box;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.button-wrapper .btn-white {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.home-banner .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-banner::before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+
+.artist-box a {
+    text-decoration: none;
+}
+
+.event-box a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.event-slider .slick-arrow:hover {
+    background: linear-gradient(transparent, transparent) padding-box, linear-gradient(-90deg, #EEC65F -63%, #A76F2A 76%, #AE9469 150%) border-box;
 }

@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-lg">
                             <div class="footer-heading">
-                                <h6>Quick Links</h6>
+                                <h6>Quick <span class="gold-line">Links</span></h6>
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="about-us.php">About Us</a></li>
@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-lg">
                             <div class="footer-heading">
-                                <h6>For Clients</h6>
+                                <h6>For <span class="gold-line">Clients</span></h6>
                                 <ul>
                                     <li><a href="tattoo-gallery.php">Tattoo Gallery</a></li>
                                     <li><a href="flash-gallery.php">Flash Gallery</a></li>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="col-lg">
                             <div class="footer-heading">
-                                <h6>Information</h6>
+                                <h6><span class="gold-line">Information</span></h6>
                                 <ul>
                                     <li><a href="">Cookie Policy</a></li>
                                     <li><a href="">DMCA Policy</a></li>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="footer-heading">
-                                <h6>Contact Information</h6>
+                                <h6>Contact <span class="gold-line">Us</span></h6>
                                 <ul class="footer-info">
                                     <li><a href=""><i class="fa-regular fa-envelope"></i> support@tattoosarus.com</a></li>
                                 </ul>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="footer-heading social-links">
-                                <h6>Social links</h6>
+                                <h6>Follow <span class="gold-line">Us</span></h6>
                                 <ul class="footer-social">
                                     <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -65,7 +65,7 @@
                                     <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
                                     <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
                                 </ul>
-                                <h6>Newsletter</h6>
+                                <h6><span class="gold-line">Newsletter</span></h6>
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Your Email">
                                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-arrow-right-long"></i></button>
@@ -83,7 +83,7 @@
                             <div class="col-lg-6">
                                 <div class="payment">
                                     <img src="img/payment-img.png" alt="">
-                                    <p><a href="">Term & Conditions </a> - <a href="">Privacy Policy</a></p>
+                                    <p><a href="">Term & Conditions </a> - <a href="">Privacy Policy</a> - <a href="">Cookie Policy</a></p>
                                 </div>
                             </div>
                         </div>

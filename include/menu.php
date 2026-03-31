@@ -57,9 +57,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">ARTIST SEARCH</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="faqs.php">FAQS</a>
-                                        </li>
                                     </ul>
                                     <div class="d-flex top-right-nav">
                                         <a href="#" class="nav-toggle-button">

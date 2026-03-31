@@ -986,14 +986,18 @@ p.copyright {
 }
 
 .footer-heading h6:after {
-    content: "";
+    /*content: "";
     position: absolute;
     width: 100px;
     height: 2px;
     background: linear-gradient(to right, #EEC65F, #A76F2A, #AE9469);
     bottom: -15px;
     right: -6px;
-    transition: all 0.4s ease;
+    transition: all 0.4s ease;*/
+}
+
+.footer-heading h6 span:before {
+    bottom: -8px;
 }
 
 .footer-heading ul li a {
@@ -1015,7 +1019,7 @@ p.copyright {
     height: 2px;
     background: linear-gradient(to right, #EEC65F, #A76F2A, #AE9469);
     bottom: -7px;
-    right: 0;
+    left: 0;
     transition: all 0.4s ease;
     content: "";
 }
@@ -3241,7 +3245,7 @@ span.gold-line:before {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #A76F2A;
+    background: linear-gradient(to right, #EEC65F, #A76F2A, #AE9469);
     bottom: 0;
 }
 
@@ -3251,4 +3255,12 @@ ul.navbar-nav li {
 
 header.fixed-header ul.navbar-nav li {
     display: block;
+}
+
+.footer-heading.social-links .input-group {
+    background-color: white;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
 }

@@ -153,6 +153,8 @@ a.navbar-brand {
     font-size: 64px;
     font-family: "Felix Titling", serif;
     color: #000000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .section-heading h6 {
@@ -170,13 +172,15 @@ a.navbar-brand {
     letter-spacing: 7px;
     margin-bottom: 15px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .section-heading p {
-    font-size: 17px;
+    font-size: 18px;
     color: #7A7A7A;
-    line-height: 221%;
+    line-height: 210%;
     font-family: "Inter", sans-serif;
+    font-weight: 500;
 }
 
 .line {
@@ -186,11 +190,11 @@ a.navbar-brand {
 .platform-box {
     border: 1px solid #000000;
     text-align: center;
-    padding: 80px 40px;
+    padding: 80px 25px;
     margin-top: 50px;
     position: relative;
     overflow: hidden;
-    min-height: 489px;
+    min-height: 494px;
 }
 
 .platform-box h4 {
@@ -198,6 +202,7 @@ a.navbar-brand {
     font-family: "Felix Titling", serif;
     margin-bottom: 20px;
     transition: all 0.4s ease;
+    font-weight: 600;
 }
 
 .platform-box img {
@@ -206,12 +211,12 @@ a.navbar-brand {
 }
 
 .platform-box p {
-    font-size: 15px;
+    font-size: 16px;
     color: #7A7A7A;
     line-height: 180%;
     margin: 0;
-    transition: all 0.4 ease;
     font-family: "Inter", sans-serif;
+    font-weight: 500;
 }
 
 .platform-img {
@@ -236,15 +241,15 @@ section.platform {
 }
 
 .platform-box:hover:before {
-    right: 0;
+/*    right: 0;*/
 }
 
 .platform-box:hover * {
-    color: white !important;
+/*    color: white !important;*/
 }
 
 .platform-box:hover img {
-    filter: invert(1) brightness(100);
+/*    filter: invert(1) brightness(100);*/
 }
 
 section.showcase {
@@ -2680,7 +2685,7 @@ section.banner.home-banner .section-heading p {
 
 section.banner.home-banner h1 {
     width: 80%;
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
 }
 
 .tattoo-booking-container {
@@ -3223,4 +3228,27 @@ a.nav-toggle-button:hover:before {
 
 .event-slider .slick-arrow:hover {
     background: linear-gradient(transparent, transparent) padding-box, linear-gradient(-90deg, #EEC65F -63%, #A76F2A 76%, #AE9469 150%) border-box;
+}
+
+span.gold-line {
+    position: relative;
+    background: transparent !important;
+    -webkit-text-fill-color: inherit !important;
+}
+
+span.gold-line:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #A76F2A;
+    bottom: 0;
+}
+
+ul.navbar-nav li {
+    display: none;
+}
+
+header.fixed-header ul.navbar-nav li {
+    display: block;
 }

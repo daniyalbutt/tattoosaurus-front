@@ -15,10 +15,7 @@
                     <div class="col-md-12">
                         <div class="section-heading">
                             <h6>WELCOME TO TATTOOSAURUS</h6>
-                            <h1>Find the Best Tattoo Artists Near You</h1>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
+                            <h1>Find the Best Tattoo <span class="gold-line">Artists</span> Near You</h1>
                             <p>Looking for a skilled tattoo artist? Tattoosaurus is your one-stop destination to find talented tattoo artists, explore portfolios, and book appointments with ease. Whether you’re looking to get your first tattoo or add to your existing collection, our platform makes it simple and convenient to get inked.</p>
                             <div class="button-wrapper">
                                 <a href="tattoo-artist.php" class="btn btn-white">EXPLORE ARTISTS</a>
@@ -36,10 +33,7 @@
                     <div class="col-xl-10">
                         <div class="section-heading text-center">
                             <h6>WHY CHOOSE TATTOOSAURUS</h6>
-                            <h2>The Ultimate Platform for Tattoo Artists and Clients</h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
+                            <h2>The <span class="gold-line">Ultimate Platform</span> for Tattoo Artists and Clients</h2>
                             <p>Tattoosaurus is a dedicated platform that connects tattoo artists and clients, offering a seamless experience for both. We understand the importance of showcasing your art and discovering the perfect tattoo artist, and we’ve built a space that’s tailored to the tattoo community. Here’s why Tattoosaurus stands out:</p>
                         </div>
                     </div>
@@ -59,7 +53,7 @@
                             <div class="platform-img">
                                 <img src="img/platform-2.png" alt="">
                             </div>
-                            <h4>Secure & Flexible Payments</h4>
+                            <h4>Secure & Flexible<br>Payments</h4>
                             <p>Our platform offers secure, easy-to-use payment options with flexible financing, making it easier to pay for your tattoos in a way that suits your budget.</p>
                         </div>
                     </div>
@@ -82,10 +76,7 @@
                     <div class="col-xl-8">
                         <div class="section-heading section-white">
                             <h6>EXPLORE OUR GALLERY</h6>
-                            <h2>Discover Unique and <span>Timeless Tattoo Art</span></h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
+                            <h2>Discover <span class="gold-line">Unique</span> and <span>Timeless Tattoo Art</span></h2>
                             <p>Tattoosaurus features a stunning collection of tattoo designs that will inspire you. Explore our top tattoo galleries, showcasing artwork from talented tattoo artists across different styles. Browse, save your favorite designs, and find the perfect tattoo for your next ink.</p>
                         </div>
                     </div>
@@ -175,10 +166,7 @@
                     <div class="col-xl-7">
                         <div class="section-heading section-white">
                             <h6>MEET THE TATTOO ARTISTS</h6>
-                            <h2>Discover the <br>Masters of Ink</h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
+                            <h2>Discover the <br><span class="gold-line">Masters</span> of Ink</h2>
                             <p>Tattoosaurus is home to some of the best tattoo artists in the industry. Our platform features a curated selection of talented artists who specialize in various tattoo styles. Whether you're looking for realism, traditional, black & grey, or abstract tattoos, you’ll find the perfect match.</p>
                         </div>
                     </div>
@@ -340,10 +328,7 @@
                     <div class="col-xl-10">
                         <div class="section-heading text-center">
                             <h6>FEATURED</h6>
-                            <h2>Empowering Tattoo Artists with Powerful Tools</h2>
-                            <div class="line">
-                                <img src="img/line-bg.png" alt="">
-                            </div>
+                            <h2><span class="gold-line">Empowering</span> Tattoo Artists with Powerful Tools</h2>
                             <p>Tattoosaurus offers tattoo artists the tools they need to manage their art, business, and client relationships. We streamline the booking process, help you manage events, and give you the control to personalize your profile for maximum exposure.</p>
                         </div>
                     </div>

@@ -4,10 +4,10 @@
                         <div class="col-xl-7">
                             <div class="footer-logo section-heading text-center">
                                 <img src="img/logo.png" alt="">
-                                <h2>Get Started with Tattoosaurus Today</h2>
-                                <div class="line">
+                                <h2>Get Started with <span class="gold-line">Tattoosaurus</span> Today</h2>
+                                <!-- <div class="line">
                                     <img src="img/line-bg.png" alt="">
-                                </div>
+                                </div> -->
                                 <p>Join the Tattoosaurus community and experience a new way to discover tattoo artists, manage your bookings, and showcase your artwork. Whether you’re an artist looking for more exposure or a client searching for the perfect tattoo, Tattoosaurus is here to help.</p>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg">
+                        <!-- <div class="col-lg">
                             <div class="footer-heading">
                                 <h6><span class="gold-line">Information</span></h6>
                                 <ul>
@@ -45,7 +45,7 @@
                                     <li><a href="">Community Guidelines</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-lg-3">
                             <div class="footer-heading">
                                 <h6>Contact <span class="gold-line">Us</span></h6>

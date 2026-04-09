@@ -1,5 +1,5 @@
 <?php include 'include/header.php'; ?>
-        <title>FAQ’s - Tattoosaurus</title>
+        <title>FAQS - Tattoosaurus</title>
     </head>
     <body data-barba="wrapper">
         <main data-barba="" data-barba-namespace="faqs">
@@ -9,8 +9,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-heading">
-                                <h1>FAQ’s</h1>
-                                <p>Home / Frequently Ask Questions</p>
+                                <h1>FAQS</h1>
                             </div>
                         </div>
                     </div>

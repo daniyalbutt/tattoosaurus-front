@@ -9,8 +9,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-heading">
-                                <h1>Artist Gallery</h1>
-                                <p>Home / tattoo Gallery</p>
+                                <h1>TATTOO GALLERY</h1>
                             </div>
                         </div>
                     </div>
@@ -33,8 +32,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="masonry-grid">
-                                <div class="masonry-item">
+                            <div class="masonry-grid row">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-1.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -52,7 +51,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-2.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -70,7 +69,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-3.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -88,7 +87,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-4.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -106,7 +105,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-5.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -124,7 +123,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-6.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -142,7 +141,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item masonry-item--wide">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-7.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -160,7 +159,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-8.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -178,7 +177,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-9.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -196,7 +195,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-10.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -214,7 +213,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="masonry-item">
+                                <div class="masonry-item col-lg-4">
                                     <img src="img/tattoo-gallery-img-11.png" alt="">
                                     <div class="artist-name">
                                         <img src="img/testi-img-1.png" alt="">
@@ -230,102 +229,6 @@
                                         <ul>
                                             <li><a href=""><i class="fa-solid fa-bookmark"></i></a></li>
                                         </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </section>
-
-            <section class="faqs">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-8">
-                            <div class="section-heading text-center">
-                                <h6>FAQ</h6>
-                                <h2>Frequently Asked Questions</h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-xl-8">
-                            <div class="faqs-wrapper">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What types of tattoos can I find in the gallery?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show">
-                                            <div class="accordion-body">
-                                                <p>Our gallery features a wide variety of tattoo styles including realism, traditional, neo-traditional, black & grey, watercolor, geometric, and more. You’ll find tattoos for every taste, whether you're looking for intricate detail or bold designs.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Can I use the gallery for inspiration for my own tattoo?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p>Absolutely! Feel free to browse through the gallery for design inspiration. You can save your favorite pieces to share with artists for your consultation. Our gallery is here to help you visualize and choose the perfect tattoo design.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            How can I search for specific tattoo styles in the gallery?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p>You can use our search tool to filter by tattoo styles, themes, or artists. This makes it easy to find exactly what you're looking for, whether you’re interested in a particular style or a custom tattoo idea.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Can I see tattoos by specific artists in the gallery?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p>Yes! You can browse tattoos by featured artists, allowing you to explore their portfolios and see the type of work they specialize in. If you find a piece you like, you can easily contact the artist directly through the platform.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            Are all the tattoos in the gallery from professional artists?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p>Yes, every tattoo featured in the Tattoosaurus gallery is from a verified, professional tattoo artist. We ensure that the tattoos showcased are of the highest quality and created by experienced artists.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            Can I get a tattoo similar to the ones in the gallery?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseSix" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p>Definitely! If you see a tattoo that inspires you, you can reach out to the artist who created it or find another artist who specializes in that style. Our platform allows you to connect directly with artists to discuss your ideas and book an appointment.</p>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

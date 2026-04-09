@@ -1207,7 +1207,7 @@ a.nav-toggle-button:hover img {
 .inner-banner{
     background-image: url(../img/inner-banner.png);
     background-size: cover;
-    height: 550px;
+    height: 500px;
     display: flex;
     align-items: end;
 }
@@ -1429,36 +1429,11 @@ section.gallery {
     padding: 100px 0px;
 }
 
-.masonry-grid {
-    width: 100%;
-    margin-top: 50px;
-}
-
 .masonry-item {
-    width: 32%;
-    margin-bottom: 22px;
+    position: relative;
     overflow: hidden;
-    padding-top: 20px;
-    padding-right: 20px;
-    z-index: 0;
+    margin: 15px 0px;
 }
-
-.masonry-item--wide {
-    width: 66%;
-}
-
-@media (max-width: 768px) {
-    .masonry-item,
-    .masonry-item--wide {
-        width: 100%;
-    }
-}
-
-.masonry-item img {
-    width: 100%;
-    display: block;
-}
-
 
 .artist-name {
     display: flex;
@@ -1466,7 +1441,7 @@ section.gallery {
     gap: 15px;
     position: absolute;
     top: -100px;
-    left: 20px;
+    left: 30px;
     transition: all 0.4s ease;
 }
 
@@ -1552,22 +1527,11 @@ section.gallery {
 }
 
 .masonry-item:hover .artist-name {
-    top: 40px;
+    top: 20px;
 }
 
 .masonry-item:hover .artist-bottom {
     bottom: 20px;
-}
-
-.masonry-item:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #00000087;
-    position: absolute;
-    opacity: 0;
-    transition: all 0.4s ease;
-    top: 0;
 }
 
 .masonry-item:hover:before {
@@ -1588,8 +1552,8 @@ section.tattoo-artists {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 20px;
-    left: 20px;
+    bottom: 0;
+    left: 0;
     border: 2px solid transparent;
     background: linear-gradient(transparent, transparent) padding-box, linear-gradient(180deg, #EEC65F 0%, #A76F2A 50%, #AE9469 100%) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -1599,14 +1563,10 @@ section.tattoo-artists {
     content: "";
     transition: all 0.4s ease;
     z-index: -1;
+    opacity: 1;
 }
 
 .masonry-item:hover:after{
-    bottom: 0;
-    left: 0;
-    top: 20px;
-    right: 20px;
-    z-index: 1;
 }
 
 .near-by .slick-list {
@@ -3263,4 +3223,10 @@ header.fixed-header ul.navbar-nav li {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 9px;
+}
+
+.masonry-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

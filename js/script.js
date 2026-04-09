@@ -301,18 +301,18 @@ function initOtpInputs() {
 /* ===============================
    MASONRY
 ================================ */
-function initMasonry() {
-    const grid = document.querySelector('.masonry-grid');
-    if (!grid) return;
+// function initMasonry() {
+//     const grid = document.querySelector('.masonry-grid');
+//     if (!grid) return;
 
-    imagesLoaded(grid, () => {
-        new Masonry(grid, {
-            itemSelector: '.masonry-item',
-            percentPosition: true,
-            gutter: 22
-        });
-    });
-}
+//     imagesLoaded(grid, () => {
+//         new Masonry(grid, {
+//             itemSelector: '.masonry-item',
+//             percentPosition: true,
+//             gutter: 22
+//         });
+//     });
+// }
 
 /* ===============================
    SIDEBAR

@@ -21,10 +21,7 @@
                         <div class="col-xl-8">
                             <div class="section-heading text-center">
                                 <h6>FAQ</h6>
-                                <h2>Frequently Asked Questions</h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
+                                <h2>Frequently Asked <span class="gold-line">Questions</span></h2>
                             </div>
                         </div>
                     </div>

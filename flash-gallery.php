@@ -21,10 +21,7 @@
                         <div class="col-xl-12">
                             <div class="section-heading text-center section-white">
                                 <h6>explore Our Gallery</h6>
-                                <h2>Discover Our<br>Tattoo Artistry</h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
+                                <h2>Discover Our<br><span class="gold-line">Tattoo</span> Artistry</h2>
                                 <p>Welcome to the Tattoosaurus Tattoo Gallery, where exceptional tattoo artistry takes center stage. Here, you can explore an inspiring collection of tattoos from top tattoo artists, showcasing a wide range of styles, from traditional to modern, black and grey to full color. Whether you're looking for design inspiration or searching for the perfect artist for your next ink, our gallery has something for everyone.</p>
                                 <p>Dive into our curated galleries and discover unique pieces that reflect the artistry, skill, and creativity of the tattoo community. Browse through the collections and find tattoo styles that resonate with you. Whether you’re a first-timer or an ink enthusiast, our gallery will inspire your next tattoo journey.</p>
                             </div>

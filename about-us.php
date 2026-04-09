@@ -21,10 +21,7 @@
                         <div class="col-lg-6">
                             <div class="section-heading">
                                 <h6>AbOUt</h6>
-                                <h2>Your Top Tattoos Deserve The Spotlight</h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
+                                <h2>Your Top Tattoos Deserve The <span class="gold-line">Spotlight</span></h2>
                                 <p>At Tattoosaurus, we believe that every tattoo tells a unique story and deserves to be shown in the best possible light. That’s why we’ve created a platform where tattoo artists can showcase their top work and gain the recognition they deserve, free from the noise of social media algorithms. We provide tattoo enthusiasts with a curated space to discover the best artists and designs, making it easier for both artists and clients to connect.</p>
                             </div>
                         </div>
@@ -46,10 +43,7 @@
                         <div class="col-lg-6 offset-lg-6">
                             <div class="section-heading section-heading-white">
                                 <h6>Why Choose</h6>
-                                <h2>Why Choose <br> <span>Tattoosaurus</span></h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
+                                <h2>Why Choose <br> <span class="gold-line">Tattoosaurus</span></h2>
                                 <p>Tattoosaurus is not just another tattoo platform; it’s a community where artists and clients can thrive together. We understand the need for artists to have a space where they can control their presence, manage bookings, and interact with clients without the pressure of social media. For clients, it’s about finding the right artist and style in an easy-to-navigate environment.</p>
                                 <ul class="list">
                                     <li><p><img src="img/checked.png" alt=""> Dedicated to Tattoo Artists </p></li>
@@ -77,10 +71,7 @@
                         <div class="col-lg-6">
                             <div class="section-heading">
                                 <h6>Our Goal</h6>
-                                <h2>Creating Bold Art That Speaks Without Words</h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
+                                <h2>Creating Bold Art That <span class="gold-line">Speaks</span> Without Words</h2>
                                 <p>At Tattoosaurus, we aim to create a space where tattoo artists and enthusiasts can build lasting relationships through the art they love. Our goal is to empower artists to showcase their work without the stress of traditional social media platforms and to give clients the tools to discover unique, quality tattoos.</p>
                                 <ul class="list">
                                     <li><p><img src="img/checked.png" alt=""> Showcase your best work without algorithm interference </p></li>

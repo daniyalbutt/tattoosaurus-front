@@ -21,11 +21,8 @@
                         <div class="col-xl-9">
                             <div class="section-heading text-center">
                                 <h6>Get In touch</h6>
-                                <h2>Start Your Tattoo Journey Connect With Us</h2>
+                                <h2>Start Your <span class="gold-line">Tattoo Journey</span> Connect With Us</h2>
                                 <p>Whether you’re a tattoo artist looking to join our community, a client searching for the perfect tattoo, or a sponsor interested in partnering with us, Tattoosaurus is here to help. Reach out to us with any questions, feedback, or inquiries, and our team will get back to you as soon as possible.</p>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
                             </div>
                         </div>
                     </div>

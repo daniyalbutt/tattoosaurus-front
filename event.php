@@ -22,11 +22,8 @@
                         <div class="col-xl-12">
                             <div class="section-heading">
                                 <h6>Events</h6>
-                                <h2>Experience What's New in the World of Tattoos</h2>
+                                <h2>Experience What's New in the <span class="gold-line">World</span> of Tattoos</h2>
                                 <p>Stay connected with the latest happenings in the tattoo community through our event listings. Tattoosaurus brings you an up-to-date guide to all major tattoo events, expos, conventions, and workshops, allowing you to discover new trends, meet renowned artists, and immerse yourself in the vibrant tattoo culture.</p>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
                             </div>
                         </div>
                     </div>

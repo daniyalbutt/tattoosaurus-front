@@ -21,10 +21,7 @@
                         <div class="col-xl-7">
                             <div class="section-heading text-center section-white">
                                 <h6>explore Our ARTIST</h6>
-                                <h2>Discover Our Tattoo Artistry</h2>
-                                <div class="line">
-                                    <img src="img/line-bg.png" alt="">
-                                </div>
+                                <h2>Discover Our <span class="gold-line">Tattoo</span> Artistry</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and<br>typesetting industry. Lorem Ipsum has been </p>
                             </div>
                         </div>

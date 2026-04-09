@@ -27,8 +27,8 @@
                 <h4>For Members</h4>
                 <ul>
                     <li><a href="">Search Artists</a></li>
-                    <li><a href="">Flash Gallery</a></li>
-                    <li><a href="">Events</a></li>
+                    <li><a href="flash-gallery.php">Flash Gallery</a></li>
+                    <li><a href="event.php">Events</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>

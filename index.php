@@ -147,7 +147,7 @@
                             </div> -->
                             <p>Welcome to Tattoosaurus, the ultimate platform designed for tattoo artists to showcase their work and grow their business. At Tattoosaurus, we recognize the struggles artists face with overcrowded social media platforms and unreliable booking systems. That’s why we created a dedicated space for tattoo artists to shine.</p>
                             <div class="testimonials-button justify-content-start">
-                                <a href="" class="btn btn-gradient">Read More</a>
+                                <a href="about-us.php" class="btn btn-gradient">Read More</a>
                             </div>
                         </div>
                     </div>
